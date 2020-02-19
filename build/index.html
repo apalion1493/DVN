@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trade Bot</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap&subset=cyrillic,latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,400i,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<main id="app" class="app">
+    <div id="aside1" class="left-container">
+        <div class="main-navigation">
+            <div class="main-navigation__logo">
+                <a href="#"></a>
+                <p class="main-navigation__logo-text">Горизонтально  направленное бурение</p>
+            </div>
+            <div class="main-navigation__services">
+                <h4 class="h4">Услуги</h4>
+                <ul class="main-navigation__list">
+                    <li class="main-navigation__item">
+                        <div class="main-navigation__item-block">
+                            <i class="main-navigation__item-icon main-navigation__item-icon-1"></i>
+                        </div>
+                        <a class="main-navigation__item-link" href="#">ГНБ – горизонтально направленное бурение</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <div class="main-navigation__item-block">
+                            <i class="main-navigation__item-icon main-navigation__item-icon-2"></i>
+                        </div>
+                        <a class="main-navigation__item-link" href="#">Продавливание стальных футляров</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <div class="main-navigation__item-block">
+                            <i class="main-navigation__item-icon main-navigation__item-icon-3"></i>
+                        </div>
+                        <a class="main-navigation__item-link" href="#">Бурошнековое бурение</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <div class="main-navigation__item-block">
+                            <i class="main-navigation__item-icon main-navigation__item-icon-3"></i>
+                        </div>
+                        <a class="main-navigation__item-link" href="#">Микротоннелирование AVN</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <div class="main-navigation__item-block">
+                            <i class="main-navigation__item-icon main-navigation__item-icon-6"></i>
+                        </div>
+                        <a class="main-navigation__item-link" href="#">Упровляемый прокол под дорогой</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <div class="main-navigation__item-block">
+                            <i class="main-navigation__item-icon main-navigation__item-icon-4"></i>
+                        </div>
+                        <a class="main-navigation__item-link" href="#">Прокладка футляров методом Грундорам</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <div class="main-navigation__item-block">
+                            <i class="main-navigation__item-icon main-navigation__item-icon-5"></i>
+                        </div>
+                        <a class="main-navigation__item-link" href="#">Бестраншейная прокладка труб</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-navigation__rent">
+                <h4 class="h4">Аренда</h4>
+                <ul class="main-navigation__list">
+                    <li class="main-navigation__item">
+                        <div class="main-navigation__item-block">
+                            <i class="main-navigation__item-icon main-navigation__item-icon-setting"></i>
+                        </div>
+                        <a class="main-navigation__item-link" href="#">ГНБ установки</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <div class="main-navigation__item-block">
+                            <i class="main-navigation__item-icon main-navigation__item-icon-jack"></i>
+                        </div>
+                        <a class="main-navigation__item-link" href="#">Гидравлические домкраты</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <div class="main-navigation__item-block">
+                            <i class="main-navigation__item-icon main-navigation__item-icon-crane"></i>
+                        </div>
+                        <a class="main-navigation__item-link" href="#">Кран СПК-1000</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="article" class="main-container">
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="header__wrapper">
+                            <div class="header__navigation">
+                                <ul class="main-menu">
+                                    <li class="main-menu__item">
+                                        <a class="main-menu__link" href="#">О компании</a>
+                                    </li>
+                                    <li class="main-menu__item">
+                                        <a class="main-menu__link" href="#">Цены</a>
+                                    </li>
+                                    <li class="main-menu__item">
+                                        <a class="main-menu__link" href="#">Опыт работы</a>
+                                    </li>
+                                    <li class="main-menu__item">
+                                        <a class="main-menu__link" href="#">Контакты</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn main-button brown-btn header__btn">Быстрая заявка</button>
+                            <div class="header__infoBlock">
+                                <span class="header__infoBlock-span">Время работы:</span>
+                                <p class="header__infoBlock-text">9.00 – 19.00  Без выходных</p>
+                            </div>
+                            <div class="header__contactsBlock">
+                                <a class="header__contactsBlock-tel" href="tel:+74952261850">+7 (495) 226-18-50</a>
+                                <a class="header__contactsBlock-mail" href="mailto:dvn-stroy@rambler.ru">dvn-stroy@rambler.ru</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="section screen-demonstration screen-demonstration_container">
+            <div class="screen-demonstration__main">
+                <div class="screen-demonstration__container screen-demonstration__container-1">
+                    <img src="" alt="">
+                </div>
+                <div class="screen-demonstration__container screen-demonstration__container-2">
+                    <img src="" alt="">
+                </div>
+                <div class="screen-demonstration__container screen-demonstration__container-3">
+                    <img src="" alt="">
+                </div>
+                <div class="screen-demonstration__container screen-demonstration__container-4">
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="screen-demonstration__footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="h1">Услуги безтроншейной прокладки труб</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section horizontal-drilling horizontal-drilling_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div>
+                            <h2 class="h2">Горизонтально-направленное бурение в Москве и МО</h2>
+                            <p class="first-text">ООО «ДВН-Строй» - лидирующая компания в бестраншейном строительстве по прокладке подземных коммуникаций методом горизонтально направленного бурения, или ГНБ. Группа компаний "ДВН" сотрудничает с надежными поставщиками буровых установок Vermeer Navigator и запчастей. Наши бригады, прошедшие обучение на операторов и локаторщиков в МАС ГНБ, обладая высокой квалификацией и применяя современные бестраншейные технологии, за 15 лет работ выполнили десятки проектов различной сложности. Основной регион работы - Москва и Московская область.</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div>
+                            <img src="" alt="">
+                            <div>
+                                <p>Буровой комплекс Vermeer D36х50</p>
+                                <a href="#">Подробнее о нашем оборудовании</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="horizontal-drilling-container__wrapper">
+                            <h3 class="h3">Преимущества ГНБ</h3>
+<!--                            <iframe width="560" height="315" src="https://www.youtube.com/embed/cOzvVUGKGjM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="horizontal-drilling-container__wrapper">
+                            <p class="main-text">После просмотра нашего видео-ролика вы получите ответы на следующие вопросы:</p>
+                            <ul class="horizontal-drilling-container__list">
+                                <li class="horizontal-drilling-container__item">
+                                    <i class="horizontal-drilling-container__circleIcon"></i>
+                                    <p class="main-text">Что такое горизонтально направленное бурение и каковы его преимущества?</p>
+                                </li>
+                                <li class="horizontal-drilling-container__item">
+                                    <i class="horizontal-drilling-container__circleIcon"></i>
+                                    <p class="main-text">Какие коммуникации можно проложить методом ГНБ?</p>
+                                </li>
+                                <li class="horizontal-drilling-container__item">
+                                    <i class="horizontal-drilling-container__circleIcon"></i>
+                                    <p class="main-text">В каких случаях используется именно эта технология бестраншейной прокладки труб?</p>
+                                </li>
+                                <li class="horizontal-drilling-container__item">
+                                    <i class="horizontal-drilling-container__circleIcon"></i>
+                                    <p class="main-text">Что выгоднее: прокладка трубопровода методом ГНБ или в открытой траншее?</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section communication-types communication-types_container">
+            <div class="container">
+                <h2 class="h2">Метод ГНБ применяется для всех видов коммуникаций</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="communication-types__block">
+                            <span class="communication-types__block-icon"></span>
+                            <div class="communication-types__block-wrapper">
+                                <span class="first-variation-title">Прокладка телефонного кабеля и ВОЛС</span>
+                                <a class="communication-types__block-link" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="communication-types__block">
+                            <span class="communication-types__block-icon"></span>
+                            <div class="communication-types__block-wrapper">
+                                <span class="first-variation-title">Бестраншейная прокладка кабеля</span>
+                                <a class="communication-types__block-link" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="communication-types__block">
+                            <span class="communication-types__block-icon"></span>
+                            <div class="communication-types__block-wrapper">
+                                <span class="first-variation-title">Бестраншейная прокладка газопровода</span>
+                                <a class="communication-types__block-link" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="communication-types__block">
+                            <span class="communication-types__block-icon"></span>
+                            <div class="communication-types__block-wrapper">
+                                <span class="first-variation-title">Бестраншейная прокладка водопровода</span>
+                                <a class="communication-types__block-link" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="communication-types__block">
+                            <span class="communication-types__block-icon"></span>
+                            <div class="communication-types__block-wrapper">
+                                <span class="first-variation-title">Бестраншейная прокладка самотечной канализации</span>
+                                <a class="communication-types__block-link" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="communication-types__block">
+                            <span class="communication-types__block-icon"></span>
+                            <div class="communication-types__block-wrapper">
+                                <span class="first-variation-title">Прокладка теплосетей</span>
+                                <a class="communication-types__block-link" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section service-cost service-cost_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Диаметр трубы (мм)</th>
+                                <th scope="col">Стоимость прокладки 1 м.п., с НДС 18%</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <i></i>
+                                    <span>110 мм</span>
+                                </td>
+                                <td><span>от 1 200 до 2 100 ₽</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i></i>
+                                    <span>160 мм</span>
+                                </td>
+                                <td><span>от 1 500 до 2 500 ₽</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i></i>
+                                    <span>225 мм</span>
+                                </td>
+                                <td><span>от 1 800 до 3 500 ₽</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i></i>
+                                    <span>315 мм</span>
+                                </td>
+                                <td><span>от 2 500 до 4 500 ₽</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i></i>
+                                    <span>400 мм</span>
+                                </td>
+                                <td><span>от 6 500 до 8 500 ₽</span></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-6">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Диаметр трубы (мм)</th>
+                                <th scope="col">Стоимость прокладки 1 м.п., с НДС 18%</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <i></i>
+                                    <span>500 мм</span>
+                                </td>
+                                <td><span>от 1 200 до 2 100 ₽</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i></i>
+                                    <span>630 мм</span>
+                                </td>
+                                <td><span>от 1 500 до 2 500 ₽</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i></i>
+                                    <span>710 мм</span>
+                                </td>
+                                <td><span>от 1 800 до 3 500 ₽</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i></i>
+                                    <span>800 мм</span>
+                                </td>
+                                <td><span>от 2 500 до 4 500 ₽</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i></i>
+                                    <span>1000 мм</span>
+                                </td>
+                                <td><span>от 6 500 до 8 500 ₽</span></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-12">
+                        <div class="service-cost__footer">
+                            <span class="service-cost__footer-text">ВАЖНО! В расчет стоимости работ направленным бурением не включены: стоимость труб, земляные работы.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section calculator-work calculator-work_container">
+
+        </section>
+        <section class="section our-work-GHB our-work-GHB_container">
+            <div class="container">
+                <h2 class="h2">Наши работы по ГНБ</h2>
+                <p>Бурение, прокол, бестраншейная прокладка</p>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="owl-carousel">
+                            <div class="card main-card">
+                                <img src="" class="card-img-top main-card__img" alt="...">
+                                <div class="card-body main-card__body">
+                                    <span class="first-variation-title">Прокладка 2-х труб водопровода</span>
+                                    <p class="main-card__description">Прокладка 2-х труб водопровода ПНД315 в Люберцах методом ГНБ.</p>
+                                    <table class="table">
+                                        <tbody>
+                                        <tr>
+                                            <td>Дата выполнения</td>
+                                            <td>14.04.2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Мосто выполнения</td>
+                                            <td>Москва</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="card main-card">
+                                <img src="" class="card-img-top main-card__img" alt="...">
+                                <div class="card-body main-card__body">
+                                    <span class="first-variation-title">Прокладка самотечной канализации</span>
+                                    <p class="main-card__description"> Бестраншейная прокладка самотечной канализации.</p>
+                                    <table class="table">
+                                        <tbody>
+                                        <tr>
+                                            <td>Дата выполнения</td>
+                                            <td>14.04.2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Мосто выполнения</td>
+                                            <td>Москва</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="card main-card">
+                                <img src="" class="card-img-top main-card__img" alt="...">
+                                <div class="card-body main-card__body">
+                                    <span class="first-variation-title">Прокладка полиэтиленовых труб</span>
+                                    <p class="main-card__description">Бестраншейная прокладка полиэтиленовых труб диаметром 400мм для пожарного водопровод.</p>
+                                    <table class="table">
+                                        <tbody>
+                                        <tr>
+                                            <td>Дата выполнения</td>
+                                            <td>14.04.2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Мосто выполнения</td>
+                                            <td>Москва</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="card main-card">
+                                <img src="" class="card-img-top main-card__img" alt="...">
+                                <div class="card-body main-card__body">
+                                    <span class="first-variation-title">Прокладка 2-х труб водопровода</span>
+                                    <p class="main-card__description">Прокладка 2-х труб водопровода ПНД315 в Люберцах методом ГНБ.</p>
+                                    <table class="table">
+                                        <tbody>
+                                        <tr>
+                                            <td>Дата выполнения</td>
+                                            <td>14.04.2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Мосто выполнения</td>
+                                            <td>Москва</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="card main-card">
+                                <img src="" class="card-img-top main-card__img" alt="...">
+                                <div class="card-body main-card__body">
+                                    <span class="first-variation-title">Прокладка самотечной канализации</span>
+                                    <p class="main-card__description"> Бестраншейная прокладка самотечной канализации.</p>
+                                    <table class="table">
+                                        <tbody>
+                                        <tr>
+                                            <td>Дата выполнения</td>
+                                            <td>14.04.2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Мосто выполнения</td>
+                                            <td>Москва</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="card main-card">
+                                <img src="" class="card-img-top main-card__img" alt="...">
+                                <div class="card-body main-card__body">
+                                    <span class="first-variation-title">Прокладка полиэтиленовых труб</span>
+                                    <p class="main-card__description">Бестраншейная прокладка полиэтиленовых труб диаметром 400мм для пожарного водопровод.</p>
+                                    <table class="table">
+                                        <tbody>
+                                        <tr>
+                                            <td>Дата выполнения</td>
+                                            <td>14.04.2020</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Мосто выполнения</td>
+                                            <td>Москва</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section installation-rental installation-rental_container">
+            <div class="container">
+                <h2 class="h2">Аренда ГНБ установок</h2>
+                <p>Наш парк ГНБ установки для прокола и бурения под дорогой, водоемом, зданием на расстояние до 600 метров.</p>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card main-card">
+                            <img src="" class="card-img-top main-card__img" alt="...">
+                            <div class="card-body main-card__body">
+                                <span class="first-variation-title">Drill TO60D</span>
+                                <table class="table">
+                                    <tbody>
+                                    <tr>
+                                        <td>Тяговое усилие</td>
+                                        <td>2000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Крутящий момент</td>
+                                        <td>5 500 м/ч</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Длина штанги</td>
+                                        <td>4,7 м</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Буровых штанг</td>
+                                        <td>24</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <footer class="main-card__footer">
+                                <button class="btn btn-primary">Подробнее</button>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card main-card">
+                            <img src="" class="card-img-top main-card__img" alt="...">
+                            <div class="card-body main-card__body">
+                                <span class="first-variation-title">Vermeer D80х100</span>
+                                <table class="table">
+                                    <tbody>
+                                    <tr>
+                                        <td>Тяговое усилие</td>
+                                        <td>2000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Крутящий момент</td>
+                                        <td>5 500 м/ч</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Длина штанги</td>
+                                        <td>4,7 м</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Буровых штанг</td>
+                                        <td>24</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <footer class="main-card__footer">
+                                <button class="btn btn-primary">Подробнее</button>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card main-card">
+                            <img src="" class="card-img-top main-card__img" alt="...">
+                            <div class="card-body main-card__body">
+                                <span class="first-variation-title">Vermeer D36х50</span>
+                                <table class="table">
+                                    <tbody>
+                                    <tr>
+                                        <td>Тяговое усилие</td>
+                                        <td>2000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Крутящий момент</td>
+                                        <td>5 500 м/ч</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Длина штанги</td>
+                                        <td>4,7 м</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Буровых штанг</td>
+                                        <td>24</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <footer class="main-card__footer">
+                                <button class="btn btn-primary">Подробнее</button>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card main-card">
+                            <img src="" class="card-img-top main-card__img" alt="...">
+                            <div class="card-body main-card__body">
+                                <span class="first-variation-title">Vermeer D24x40</span>
+                                <table class="table">
+                                    <tbody>
+                                    <tr>
+                                        <td>Тяговое усилие</td>
+                                        <td>2000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Крутящий момент</td>
+                                        <td>5 500 м/ч</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Длина штанги</td>
+                                        <td>4,7 м</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Буровых штанг</td>
+                                        <td>24</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <footer class="main-card__footer">
+                                <button class="btn btn-primary">Подробнее</button>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section comparison-GNB comparison-GNB_container">
+            <div class="container">
+                <div class="row comparison-GNB__section">
+                    <div class="col-3">
+                        <div class="comparison-GNB__section-name">
+                            <h3 class="h3">Сравнение ГНБ машин</h3>
+                            <ul class="comparison-GNB__section-name-list">
+                                <li class="comparison-GNB__section-name-item">
+                                    <i class="comparison-GNB__section-name-line"></i>
+                                    <span class="comparison-GNB__section-name-text">Vermeer D24x40</span>
+                                </li>
+                                <li class="comparison-GNB__section-name-item">
+                                    <i class="comparison-GNB__section-name-line"></i>
+                                    <span class="comparison-GNB__section-name-text">Vermeer D80x100</span>
+                                </li>
+                                <li class="comparison-GNB__section-name-item">
+                                    <i class="comparison-GNB__section-name-line"></i>
+                                    <span class="comparison-GNB__section-name-text">DDW 55/27</span>
+                                </li>
+                                <li class="comparison-GNB__section-name-item">
+                                    <i class="comparison-GNB__section-name-line"></i>
+                                    <span class="comparison-GNB__section-name-text">Drill TO 60D</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="comparison-GNB__section-scheme">
+                            <img style="width: 100%" src="assets/img/comparison-gnb-img.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section technology-GNB technology-GNB_container">
+            <div class="container">
+                <h2 class="h2">Технология бестраншейного строительства методом ГНБ</h2>
+                <div class="row">
+                    <div class="col-7">
+                        <div>
+                            <p>Горизонтально направленное бурение — это бестраншейный метод прокладывания подземных коммуникаций с помощью специальных буровых установок, например Вермеер Навигатор. Широко используемое в последнее время горизонтальное бурение позволяет снизить временные и трудовые затраты особенно при строительстве подземных линий под естественными препятствиями (реки, овраги, озера, лесные массивы, плывуны) и в городских условиях (железные дороги, трассы, скверы, парки, и другое).</p>
+                            <p>В основном ГНБ применяют при прокладке трубопроводов, канализаций, водопроводов, газопроводов и футляров для кабелей связи без поверхностного вскрытия грунта, сохраняя природный ландшафт. Прокол под дорогой — единственный способ проложить дополнительные коммуникации без раскопки традиционной траншеи, что особенно актуально в условиях г. Москвы.</p>
+                            <p>Прокладка труб методом ГНБ выполняется в строгом соответствием с нормативно-технической документацией, а именно: ТСН 40-303-2003 г.Москвы, СТО Нострой 2.27.17-2011, информационное сообщение №522 МКС филиала ОАО "Мосэнерго", СНИП 3.05.04-85* и другими нормативными актами.</p>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div>
+                            <img src="" alt="">
+                            <div>
+                                <p>Буровой комплекс Drill  D60</p>
+                                <a href="#">Подробнее о нашем оборудовании</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section advantages-GNB advantages-GNB_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="advantages-GNB__stages">
+                            <h3 class="h3">Этапы строительства подземных коммуникаций</h3>
+                            <ul class="advantages-GNB__stages-list">
+                                <li class="advantages-GNB__stages-item">
+                                    <span class="advantages-GNB__stages-number">1</span>
+                                    <p class="advantages-GNB__stages-text">Бурение пилотной скважины малого диаметра.</p>
+                                    <div class="advantages-GNB__stages-example"></div>
+                                </li>
+                                <li class="advantages-GNB__stages-item">
+                                    <span class="advantages-GNB__stages-number">2</span>
+                                    <p class="advantages-GNB__stages-text">Подача бурового раствора для уменьшения трения.</p>
+                                    <div class="advantages-GNB__stages-example"></div>
+                                </li>
+                                <li class="advantages-GNB__stages-item">
+                                    <span class="advantages-GNB__stages-number">3</span>
+                                    <p class="advantages-GNB__stages-text">Выход бура в заданной траектории.</p>
+                                    <div class="advantages-GNB__stages-example"></div>
+                                </li>
+                                <li class="advantages-GNB__stages-item">
+                                    <span class="advantages-GNB__stages-number">4</span>
+                                    <p class="advantages-GNB__stages-text">Расширение скважины с помощью расширителя</p>
+                                    <div class="advantages-GNB__stages-example"></div>
+                                </li>
+                                <li class="advantages-GNB__stages-item">
+                                    <span class="advantages-GNB__stages-number">5</span>
+                                    <p class="advantages-GNB__stages-text">Затягивается плеть трубопровода в скважину.</p>
+                                    <div class="advantages-GNB__stages-example"></div>
+                                </li>
+                                <li class="advantages-GNB__stages-item">
+                                    <span class="advantages-GNB__stages-number">6</span>
+                                    <p class="advantages-GNB__stages-text">Сдается исплнительная документация.</p>
+                                    <div class="advantages-GNB__stages-example"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="advantages-GNB__section">
+                            <h2 class="h2">Преимущества горизонтального бурения</h2>
+                            <p>Основанный в 1971 году американским инженером Мартином Черрингтоном (Martin Cherrington), метод ГНБ продолжает развиваться и совершенствоваться и по сегодняшний день.</p>
+                            <div class="advantages-GNB__section-wrapper">
+                                <ul class="advantages-GNB__section-list">
+                                    <li class="advantages-GNB__section-item">
+                                        <div class="advantages-GNB__section-icon"></div>
+                                        <p class="advantages-GNB__section-text">Устройство подземных переходов различной степени сложности</p>
+                                    </li>
+                                    <li class="advantages-GNB__section-item">
+                                        <div class="advantages-GNB__section-icon"></div>
+                                        <p class="advantages-GNB__section-text">Никакие природные препятствия не мешают</p>
+                                    </li>
+                                    <li class="advantages-GNB__section-item">
+                                        <div class="advantages-GNB__section-icon"></div>
+                                        <p class="advantages-GNB__section-text">Безопасно для окружающей среды</p>
+                                    </li>
+                                    <li class="advantages-GNB__section-item">
+                                        <div class="advantages-GNB__section-icon"></div>
+                                        <p class="advantages-GNB__section-text">Сокращение времени работы</p>
+                                    </li>
+                                </ul>
+                                <ul class="advantages-GNB__section-list">
+                                    <li class="advantages-GNB__section-item">
+                                        <div class="advantages-GNB__section-icon"></div>
+                                        <p class="advantages-GNB__section-text">Можно делать в любое время года</p>
+                                    </li>
+                                    <li class="advantages-GNB__section-item">
+                                        <div class="advantages-GNB__section-icon"></div>
+                                        <p class="advantages-GNB__section-text">Без риска для других инженерных сетей</p>
+                                    </li>
+                                    <li class="advantages-GNB__section-item">
+                                        <div class="advantages-GNB__section-icon"></div>
+                                        <p class="advantages-GNB__section-text">Не разрушает ланшафт</p>
+                                    </li>
+                                    <li class="advantages-GNB__section-item">
+                                        <div class="advantages-GNB__section-icon"></div>
+                                        <p class="advantages-GNB__section-text">Увеличенный срок службы проложенных сетей.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section application-GNB application-GNB_container">
+            <div class="container">
+                <h2 class="h2">Где применяется ГНБ</h2>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="application-GNB-block">
+                            <div class="application-GNB-block__image">
+                                <span></span>
+                            </div>
+                            <div class="application-GNB-block__body">
+                                <span class="application-GNB-block__title">Прокол под дорогами</span>
+                                <p class="application-GNB-block__text">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="application-GNB-block">
+                            <div class="application-GNB-block__image">
+                                <span></span>
+                            </div>
+                            <div class="application-GNB-block__body">
+                                <span class="application-GNB-block__title">Прокол под водой (реки, водоемы)</span>
+                                <p class="application-GNB-block__text">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="application-GNB-block">
+                            <div class="application-GNB-block__image">
+                                <span></span>
+                            </div>
+                            <div class="application-GNB-block__body">
+                                <span class="application-GNB-block__title">Прокол под железными дорогами (ж/д)</span>
+                                <p class="application-GNB-block__text">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="application-GNB-block">
+                            <div class="application-GNB-block__image">
+                                <span></span>
+                            </div>
+                            <div class="application-GNB-block__body">
+                                <span class="application-GNB-block__title">Прокол ГНБ под зданиями</span>
+                                <p class="application-GNB-block__text">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section alternative-drilling alternative-drilling_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="owl-carousel">
+                            <div class="card main-card">
+                                <img src="" class="card-img-top main-card__img" alt="...">
+                                <div class="card-body main-card__body">
+                                    <span class="first-variation-title">ГНБ – горизонтально направленное бурение</span>
+                                    <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
+                                </div>
+                                <footer class="main-card__footer">
+                                    <button class="btn btn-primary">Подробнее</button>
+                                </footer>
+                            </div>
+                            <div class="card main-card">
+                                <img src="" class="card-img-top main-card__img" alt="...">
+                                <div class="card-body main-card__body">
+                                    <span class="first-variation-title">Бурошнековое бурение</span>
+                                    <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
+                                </div>
+                                <footer class="main-card__footer">
+                                    <button class="btn btn-primary">Подробнее</button>
+                                </footer>
+                            </div>
+                            <div class="card main-card">
+                                <img src="" class="card-img-top main-card__img" alt="...">
+                                <div class="card-body main-card__body">
+                                    <span class="first-variation-title">Продавливание стальных футляров</span>
+                                    <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
+                                </div>
+                                <footer class="main-card__footer">
+                                    <button class="btn btn-primary">Подробнее</button>
+                                </footer>
+                            </div>
+                            <div class="card main-card">
+                                <img src="" class="card-img-top main-card__img" alt="...">
+                                <div class="card-body main-card__body">
+                                    <span class="first-variation-title">Микротоннелирование AVN</span>
+                                    <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
+                                </div>
+                                <footer class="main-card__footer">
+                                    <button class="btn btn-primary">Подробнее</button>
+                                </footer>
+                            </div>
+                            <div class="card main-card">
+                                <img src="" class="card-img-top main-card__img" alt="...">
+                                <div class="card-body main-card__body">
+                                    <span class="first-variation-title">ГНБ – горизонтально направленное бурение</span>
+                                    <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
+                                </div>
+                                <footer class="main-card__footer">
+                                    <button class="btn btn-primary">Подробнее</button>
+                                </footer>
+                            </div>
+                            <div class="card main-card">
+                                <img src="" class="card-img-top main-card__img" alt="...">
+                                <div class="card-body main-card__body">
+                                    <span class="first-variation-title">Бурошнековое бурение</span>
+                                    <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
+                                </div>
+                                <footer class="main-card__footer">
+                                    <button class="btn btn-primary">Подробнее</button>
+                                </footer>
+                            </div>
+                            <div class="card main-card">
+                                <img src="" class="card-img-top main-card__img" alt="...">
+                                <div class="card-body main-card__body">
+                                    <span class="first-variation-title">Продавливание стальных футляров</span>
+                                    <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
+                                </div>
+                                <footer class="main-card__footer">
+                                    <button class="btn btn-primary">Подробнее</button>
+                                </footer>
+                            </div>
+                            <div class="card main-card">
+                                <img src="" class="card-img-top main-card__img" alt="...">
+                                <div class="card-body main-card__body">
+                                    <span class="first-variation-title">Микротоннелирование AVN</span>
+                                    <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
+                                </div>
+                                <footer class="main-card__footer">
+                                    <button class="btn btn-primary">Подробнее</button>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section news-company news-company_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="media media-main">
+                            <img src="" class="mr-3 media-main__img" alt="...">
+                            <div class="media-body media-main__body">
+                                <h5 class="mt-0 media-main__title">Бурение в Люберцах</h5>
+                                <time class="media-main__data">27 сентября 2019</time>
+                                <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
+                                <a class="media-main__text" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="media media-main">
+                            <img src="" class="mr-3 media-main__img" alt="...">
+                            <div class="media-body media-main__body">
+                                <h5 class="mt-0 media-main__title">Бурение в Люберцах</h5>
+                                <time class="media-main__data">27 сентября 2019</time>
+                                <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
+                                <a class="media-main__text" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="media media-main">
+                            <img src="" class="mr-3 media-main__img" alt="...">
+                            <div class="media-body media-main__body">
+                                <h5 class="mt-0 media-main__title">Бурение в Люберцах</h5>
+                                <time class="media-main__data">27 сентября 2019</time>
+                                <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
+                                <a class="media-main__text" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="media media-main">
+                            <img src="" class="mr-3 media-main__img" alt="...">
+                            <div class="media-body media-main__body">
+                                <h5 class="mt-0 media-main__title">Бурение в Люберцах</h5>
+                                <time class="media-main__data">27 сентября 2019</time>
+                                <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
+                                <a class="media-main__text" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary">Все новости</button>
+            </div>
+        </section>
+        <section class="section applications applications_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div>
+                            <span>Вы можете подать заявку прямо сейчас  по телефону</span>
+                            <a href="tel:+74952261850">+7 (495) 226-18-50</a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div>
+                            <h3 class="h3">Оставьте заявку</h3>
+                            <p>и мы перезвоним Вам в течение 5 минут</p>
+
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Имя">
+                                    <input type="number" class="form-control" placeholder="Телефон">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div>
+                            <div>
+                                <p>Мы в соц сетях</p>
+                                <ul>
+                                    <li>
+                                        <a href="#"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p>Связь через мессенжеры</p>
+                                <ul>
+                                    <li>
+                                        <a href="#"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div>
+                            <span>Меню</span>
+                            <ul>
+                                <li>
+                                    <a href="#">Технология ГНБ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Наше оборудование</a>
+                                </li>
+                                <li>
+                                    <a href="#">Стоимость работ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div>
+                            <span></span>
+                            <ul>
+                                <li>
+                                    <a href="#">Вакансии</a>
+                                </li>
+                                <li>
+                                    <a href="#">Бестраншейная прокладка самотечной канализации</a>
+                                </li>
+                                <li>
+                                    <a href="#">Прокладка дюкера</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div>
+                            <div>
+                                <a href="#"></a>
+                                <span>Горизонтально  направленное бурение</span>
+                            </div>
+                            <p>© 2005-2019 DVN <br>
+                                Горизонтальное  направленное <br>
+                                бурение по всей России</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</main>
+
+<!--SCRIPTS-->
+<script src="assets/js/libs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+<script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel();
+    });
+
+
+</script>
+
+</body>
+</html>

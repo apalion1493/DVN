@@ -1,0 +1,67 @@
+$font-family-first: 'Lato', sans-serif;
+$font-family-second: 'Montserrat', sans-serif;
+$font-family-third: 'Roboto Condensed', sans-serif;
+
+h1.h1 {
+  font-family: $font-family-second;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+h2.h2 {
+  font-family: $font-family-second;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h3.h3 {
+  font-family: $font-family-second;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+}
+
+h4.h4 {
+  font-family: $font-family-second;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.first-text {
+  font-family: $font-family-first;
+  font-size: 18px;
+  line-height: 24px;
+  color: #555555;
+}
+
+.main-text {
+  font-family: $font-family-first;
+  font-size: 16px;
+  line-height: 28px;
+  color: #555555;
+}
+
+.first-variation-title {
+  font-family: $font-family-second;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+}
+
+.second-variation-title {
+  font-family: $font-family-first;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}

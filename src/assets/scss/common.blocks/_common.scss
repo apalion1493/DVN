@@ -1,0 +1,17 @@
+html, body {
+
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sticky {
+  position: fixed;
+  z-index: 101;
+}
+.stop {
+  position: relative;
+  z-index: 101;
+}
