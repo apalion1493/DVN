@@ -1,0 +1,166 @@
+.advantages-GNB_container {
+  padding-top: 38px;
+}
+
+.advantages-GNB__stages {
+  background: linear-gradient(180deg, #F0E0DF 0%, #E9E9E7 100%);
+  padding: 41px 38px 36px 21px;
+}
+
+.advantages-GNB__row {
+  margin-left: 0;
+  margin-right: 0;
+
+  & > div {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.advantages-GNB__stages {
+  h3 {
+    margin-bottom: 30px;
+  }
+}
+
+.advantages-GNB__stages-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+.advantages-GNB__stages-item {
+  margin-bottom: 13px;
+  display: flex;
+  align-items: center;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.advantages-GNB__stages-number {
+  min-width: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #B45754;
+  margin-right: 25px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  font-family: $font-family-second;
+}
+
+.advantages-GNB__stages-text {
+  font-family: $font-family-first;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #555555;
+  margin-bottom: 0;
+  max-width: 235px;
+}
+
+.advantages-GNB__stages-example {
+  min-width: 70px;
+  width: 70px;
+  height: 70px;
+  margin-left: auto;
+  display: block;
+}
+
+.advantages-GNB__stages-example-1 {
+  background: url("../img/underground-communications__step-1.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.advantages-GNB__stages-example-2 {
+  background: url("../img/underground-communications__step-2.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.advantages-GNB__stages-example-3 {
+  background: url("../img/underground-communications__step-3.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.advantages-GNB__stages-example-4 {
+  background: url("../img/underground-communications__step-4.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.advantages-GNB__stages-example-5 {
+  background: url("../img/underground-communications__step-5.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.advantages-GNB__stages-example-6 {
+  background: url("../img/underground-communications__step-6.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.advantages-GNB__section {
+  border: 1px solid #E9E9E7;
+  border-left: none;
+  height: 100%;
+  padding: 32px 40px 40px 38px;
+
+  h2 {
+    margin-bottom: 27px;
+  }
+}
+
+.advantages-GNB__section-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages-GNB__section-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  max-width: 48%;
+  width: 100%;
+}
+
+.advantages-GNB__section-subtitle {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: $font-family-first;
+  color: #777777;
+  margin-bottom: 42px;
+}
+
+.advantages-GNB__section-item {
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+
+  &:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+
+.advantages-GNB__section-icon {
+  min-width: 60px;
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50%;
+  margin-right: 22px;
+}
+
+.advantages-GNB__section-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: $font-family-first;
+  margin-bottom: 0;
+  color: #555555;
+}

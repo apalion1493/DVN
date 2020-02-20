@@ -3,6 +3,45 @@
   border-radius: 5px;
 }
 
+.white-button {
+  background: #ffffff;
+  box-shadow: 0 2px 0 #D2D2D2;
+  border-radius: 3px;
+  height: 42px;
+  max-width: 141px;
+  width: 100%;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #333333;
+}
+
+.gold-btn {
+  background: linear-gradient(76.58deg, #E7BC26 -17.78%, #F7DF8C 93.17%);
+  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  height: 40px;
+  max-width: 182px;
+  width: 100%;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #BF5E5B;
+  font-family: $font-family-first;
+
+  &:hover {
+    color: #BF5E5B;
+  }
+}
+
 .brown-btn {
   background: linear-gradient(77.91deg, #984442 -17.78%, #C15F5C 93.17%);
   font-weight: bold;

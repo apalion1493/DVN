@@ -1,0 +1,33 @@
+.main-card {
+  min-height: 433px;
+  margin-left: 8px;
+  margin-right: 8px;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 0;
+
+  .first-variation-title {
+    margin-bottom: 10px;
+    display: block;
+  }
+}
+
+.main-card__body {
+  padding-top: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #DDDDDD;
+}
+
+.main-card__description {
+  font-size: 14px;
+  line-height: 20px;
+  color: #777777;
+  font-family: $font-family-first;
+}
+
+.main-card__img {
+  max-height: 209px;
+  border-radius: 0;
+}

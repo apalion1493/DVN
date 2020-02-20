@@ -5,6 +5,8 @@ html, body {
 .app {
   display: flex;
   justify-content: space-between;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .sticky {
@@ -142,6 +144,203 @@ html, body {
 .circle-brown-10 {
   min-width: 50px;
   height: 50px;
+}
+
+.left-arrow-red {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    background: url("../img/red-icon-arrow.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 20px;
+    height: 20px;
+    display: block;
+    left: -30px;
+    top: 6px;
+  }
+}
+
+.underpasses-icon {
+  background: url("../img/underpasses-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.scenery-icon {
+  background: url("../img/scenery-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.security-icon {
+  background: url("../img/security-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.time-reduction-icon {
+  background: url("../img/time-reduction-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.weather-icon {
+  background: url("../img/weather-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.no-risk-icon {
+  background: url("../img/no-risk-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.landscape-icon {
+  background: url("../img/landscape-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.calendar-icon {
+  background: url("../img/calendar-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.under-way-icon {
+  background: url("../img/under-way-icon.png") no-repeat center;
+  background-size: 100% auto;
+}
+
+.under-water-icon {
+  background: url("../img/under-water-icon.png") no-repeat center;
+  background-size: 100% auto;
+}
+
+.under-railway-icon {
+  background: url("../img/under-railway-icon.png") no-repeat center;
+  background-size: 100% auto;
+}
+
+.under-building-icon {
+  background: url("../img/under-building-icon.png") no-repeat center;
+  background-size: 100% auto;
+}
+
+.owl-nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 31px;
+}
+
+.owl-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-43%, -3px);
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.owl-prev {
+  &:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+  }
+
+  span {
+    background: url("../img/carousel-btn.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 35px;
+    min-width: 35px;
+    height: 35px;
+    display: block;
+  }
+}
+
+.owl-next {
+  &:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+  }
+
+  span {
+    background: url("../img/carousel-btn.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 35px;
+    min-width: 35px;
+    height: 35px;
+    display: block;
+    transform: rotate(180deg);
+  }
+}
+
+.owl-dot {
+  width: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+  &:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+  }
+
+  span {
+    min-width: 16px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 1px solid #B35654;
+    display: block;
+  }
+}
+
+.owl-dot.active {
+  span {
+    background: #B35654;
+  }
+}
+
+.icon-youtube {
+  background: url("../img/youtube-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.icon-vk {
+  background: url("../img/vk-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.icon-viber {
+  background: url("../img/viber-iocn.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.icon-wp {
+  background: url("../img/wp-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.icon-telegram {
+  background: url("../img/telegram-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 30px;
+  height: 30px;
+  display: block;
 }
 ////////////////////////////////////////////////////////////////////
 
@@ -298,3 +497,7 @@ html, body {
     background-position-x: -550px!important;
   }
 }
+
+
+////////////////////
+

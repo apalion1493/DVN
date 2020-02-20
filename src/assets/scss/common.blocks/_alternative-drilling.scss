@@ -1,0 +1,25 @@
+.alternative-drilling_container {
+  padding-top: 74px;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .main-card {
+    background: linear-gradient(180deg, #F0E0DF 0%, #E9E9E7 100%);
+    min-height: 441px;
+  }
+
+  .main-card__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 37px;
+    padding-top: 10px;
+    margin-top: auto;
+  }
+}
+
+
+

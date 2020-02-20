@@ -149,3 +149,8 @@ $(document).ready(function(){
         $(".image:first-child").width(idSlider.width()/2);
     });
 });
+
+
+
+
+

@@ -1,0 +1,38 @@
+.media-main {
+  margin-bottom: 30px;
+
+  img {
+    max-width: 179px;
+  }
+}
+
+.media-main__body {
+  padding-top: 14px;
+}
+
+.media-main__title {
+  margin-bottom: 18px;
+}
+
+.media-main__data {
+  font-family: $font-family-first;
+  font-size: 14px;
+  line-height: 17px;
+  color: #777777;
+  margin-bottom: 6px;
+}
+
+p.media-main__text {
+  font-family: $font-family-first;
+  font-size: 14px;
+  line-height: 17px;
+  color: #555555;
+  margin-bottom: 15px;
+}
+
+a.media-main__text {
+  font-family: $font-family-first;
+  font-size: 14px;
+  line-height: 17px;
+  color: #B65855;
+}

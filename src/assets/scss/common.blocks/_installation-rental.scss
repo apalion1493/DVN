@@ -1,0 +1,59 @@
+.installation-rental_container {
+  padding-top: 46px;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .main-card__footer {
+    background: linear-gradient(180deg, #F0E0DF 0%, #E9E9E7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .main-card {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .main-card__body {
+    padding-top: 16px;
+    padding-left: 13px;
+    padding-right: 15px;
+  }
+
+  .main-card__image-container {
+    min-height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DDDDDD;
+    border-bottom: none;
+
+    img {
+      width: 90%;
+    }
+  }
+
+  .table-v2 {
+    margin-top: 5px;
+  }
+}
+
+.installation-rental__subtitle {
+  margin-bottom: 20px;
+}
+
+.installation-rental__row {
+  margin-left: -6px;
+  margin-right: -6px;
+
+  & > div {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}

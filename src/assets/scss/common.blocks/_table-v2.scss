@@ -1,0 +1,30 @@
+.table-v2 {
+  font-family: $font-family-first;
+  margin-bottom: 0;
+
+  tr {
+    td {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: right;
+      color: #555555;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    td:first-child {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+      color: #777777;
+      text-align: left;
+    }
+  }
+
+  tr:first-child {
+    td {
+      border-top: none;
+    }
+  }
+}

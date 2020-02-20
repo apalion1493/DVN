@@ -27,6 +27,7 @@
     "gulp-terser": "^1.2.0",
     "gulp-uglify": "^3.0.1",
     "jquery": "^3.4.1",
+    "jquery-steps": "^1.1.0",
     "owl.carousel": "^2.3.4",
     "popper.js": "^1.14.3"
   },

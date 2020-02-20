@@ -1,0 +1,38 @@
+.technology-GNB_container {
+  padding-top: 50px;
+
+  h2 {
+    text-align: center;
+    max-width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+  }
+}
+
+.technology-GNB__imgWrapper {
+  position: relative;
+}
+
+.technology-GNB__imgWrapper-text {
+  position: absolute;
+  top: 160px;
+  right: 50px;
+  max-width: 220px;
+
+  p {
+    font-family: $font-family-first;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    margin-bottom: 0;
+  }
+
+  a {
+    font-family: $font-family-first;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #B65855;
+  }
+}

@@ -1,0 +1,47 @@
+.application-GNB_container {
+  padding-top: 67px;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 23px;
+  }
+}
+
+.application-GNB-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.application-GNB-block__image {
+  min-width: 139px;
+  height: 139px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 25px;
+
+  span {
+    width: 139px;
+    height: 139px;
+    border-radius: 50%;
+    display: block;
+  }
+}
+
+.application-GNB-block__title {
+  font-family: $font-family-first;
+  display: block;
+  margin-bottom: 11px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #555555;
+}
+
+.application-GNB-block__text {
+  font-family: $font-family-first;
+  font-size: 14px;
+  line-height: 20px;
+  color: #777777;
+}

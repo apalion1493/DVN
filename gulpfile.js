@@ -38,6 +38,7 @@ function scripts() {
         'src/assets/js/libs/jquery/**/*.js',
         'src/assets/js/libs/bootstrap/**/*.js',
         'src/assets/js/libs/owl/**/*.js',
+        'src/assets/js/libs/steps/**/*.js',
         'src/assets/js/main.js'
     ])
         .pipe(concat('libs.min.js'))

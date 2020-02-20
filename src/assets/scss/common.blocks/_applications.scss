@@ -1,0 +1,70 @@
+.applications_container {
+  margin-top: 42px;
+  padding-top: 42px;
+  padding-bottom: 30px;
+  background: url("../img/applications-bg.svg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+
+  .row {
+    & > div:last-child {
+      padding-left: 0;
+    }
+  }
+
+  h3 {
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+
+  .main-text {
+    color: #ffffff;
+    margin-bottom: 16px;
+  }
+
+  form {
+    max-width: 570px;
+
+    .form-group {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    input {
+      max-width: 277px;
+      height: 40px;
+      color: #333333
+    }
+  }
+}
+
+.applications__wrapper {
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.applications__text {
+  font-family: $font-family-second;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  max-width: 330px;
+  margin-bottom: 21px;
+}
+
+.applications__phone {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFFFFF;
+  font-family: $font-family-second;
+
+  &:hover {
+    color: #ffffff;
+  }
+}
