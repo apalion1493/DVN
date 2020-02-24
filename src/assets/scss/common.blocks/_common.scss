@@ -377,7 +377,7 @@ html, body {
 }
 
 .slider-item:first-child {
-  margin-left: -123px;
+  margin-left: -45px;
 }
 
 .image {
@@ -389,13 +389,29 @@ html, body {
 
 .item-img-1 {
   height: 516px;
-  width: 200%;
+  width: 100%;
   top: 0;
   position: absolute;
-  left: -115px;
+  left: -50px;
   background-size: 100% 516px !important;
   transform: translate3d(0, 0, 0) skew(8deg, 0deg);
   transition: all 0.5s;
+}
+
+.item-img-1-01 {
+  width: 749px;
+}
+
+.item-img-1-02 {
+  width: 700px;
+}
+
+.item-img-1-03 {
+  width: 700px;
+}
+
+.item-img-1-04 {
+  width: 700px;
 }
 
 .item-text {
@@ -416,10 +432,6 @@ html, body {
 }
 
 @media (min-width:1400px) {
-
-  .image:nth-child(2) .item-img-1 {
-    left: -400px;
-  }
 
   .image:last-child .image-text {
     left: 0;

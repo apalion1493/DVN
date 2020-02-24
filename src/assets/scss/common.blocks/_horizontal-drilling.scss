@@ -28,7 +28,10 @@
 
 .horizontal-drilling__img {
   img {
-    width: 100%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -50,4 +53,8 @@
   margin-right: 18px;
   border-radius: 50%;
   margin-top: 11px;
+}
+
+.horizontal-drilling-container__wrapper {
+
 }
