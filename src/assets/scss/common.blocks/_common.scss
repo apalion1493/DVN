@@ -3,10 +3,21 @@ html, body {
 }
 
 .app {
-  display: flex;
-  justify-content: space-between;
-  max-width: 100%;
-  overflow: hidden;
+  & > .wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    overflow: hidden;
+
+    & > .content {
+      flex: 1;
+      width: calc(100% - 250px);
+      max-width: 1920px;
+      margin-right: auto;
+    }
+  }
+
+
 }
 
 .sticky {
@@ -500,4 +511,3 @@ html, body {
 
 
 ////////////////////
-

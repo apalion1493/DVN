@@ -428,9 +428,9 @@
                 cancel: "Cancel",
                 current: "current step:",
                 pagination: "Pagination",
-                finish: "Конец",
-                next: "Далее",
-                previous: "Назад",
+                finish: "<span>Конец</span>",
+                next: "<span>Далее <i></i></span>",
+                previous: "<span>Назад</span>",
                 loading: "Загрузка ..."
             }
         }

@@ -7,7 +7,6 @@
 {
   display: block;
   width: 100%;
-  overflow: hidden;
 }
 
 .wizard a,
@@ -141,10 +140,9 @@
   display: block;
   margin: 0.5em;
   min-height: 35em;
-  overflow: hidden;
+  //overflow: hidden;
   position: relative;
   width: auto;
-
   border-radius: 5px;
 }
 
@@ -213,12 +211,12 @@
   margin-left: 1.5em;
 }
 
-.wizard > .actions
-{
-  position: relative;
+.wizard > .actions {
   display: block;
-  text-align: right;
   width: 100%;
+  position: absolute;
+  bottom: 40px;
+  text-align: center;
 }
 
 .wizard.vertical > .actions
@@ -235,8 +233,7 @@
   text-align: right;
 }
 
-.wizard > .actions > ul > li
-{
+.wizard > .actions > ul > li {
   margin: 0 0.5em;
 }
 
@@ -247,17 +244,37 @@
 
 .wizard > .actions a,
 .wizard > .actions a:hover,
-.wizard > .actions a:active
-{
-  background: #2184be;
-  color: #fff;
-  display: block;
+.wizard > .actions a:active {
+  color: #741E1F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0.5em 1em;
   text-decoration: none;
+  background: #FFFFFF;
+  border-radius: 3px;
+  min-width: 163px;
+  height: 40px;
 
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  span {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-family: $font-family-first;
+    color: #741E1F;
+    display: inline-flex;
+
+    i {
+      background: url("../img/red-line-right-icon.svg") no-repeat center;
+      background-size: 100% auto;
+      width: 17px;
+      height: 16px;
+      display: block;
+      margin-left: 10px;
+      margin-top: 1px;
+    }
+  }
 }
 
 .wizard > .actions .disabled a,
@@ -265,7 +282,7 @@
 .wizard > .actions .disabled a:active
 {
   background: #eee;
-  color: #aaa;
+  color: #741E1F;
 }
 
 .wizard > .loading
@@ -376,6 +393,19 @@
 .calculator-work {
   margin-top: 30px;
 
+  .wizard>.actions>ul>li.disabled {
+    display: none;
+  }
+
+  .wizard>.content {
+    min-height: 350px;
+  }
+
+  .wizard>.content>.body {
+    width: 100%;
+    height: 100%;
+  }
+
   .wizard>.steps a,
   .wizard>.steps a:active,
   .wizard>.steps a:hover {
@@ -403,6 +433,22 @@
     justify-content: center;
     align-items: center;
     background: #ffffff;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      background: url("../img/jumper-icon.svg") no-repeat center;
+      background-size: 100% auto;
+      width: 24px;
+      height: 6px;
+      display: block;
+      left: 18px;
+    }
+
+    &:last-child:before {
+      display: none;
+    }
   }
 
   .wizard>.steps .number {
@@ -420,7 +466,10 @@
     max-width: 184px;
     width: 100%;
     z-index: 1;
-    bottom: 200px;
+    bottom: -70px;
+    left: 50%;
+    margin: auto;
+    transform: translateX(-50%);
   }
 
   .wizard.clearfix {
@@ -428,8 +477,6 @@
   }
 
   .wizard>.content {
-    //background: url("../img/background-workload.jpg") no-repeat center;
-    //background-size: cover;
     background: none;
     margin: 0;
     border-radius: 0;
@@ -440,5 +487,53 @@
 .calculator-work {
   background: url("../img/background-workload.jpg") no-repeat center;
   background-size: cover;
+
+  h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 9px;
+  }
 }
 
+.calculator-work__subtitle {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #C7C7C7;
+  font-family: $font-family-second;
+  display: block;
+}
+
+.calculator-work__section {
+  display: flex;
+  margin-top: 23px;
+  justify-content: space-between;
+  max-width: 975px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calculator-work__wrapper {
+  width: 45%;
+}
+
+.calculator-work__footer {
+  height: 89px;
+  width: 100%;
+  background: #B45754;
+}
+
+.calculator-work__bottom-step {
+  position: absolute;
+  bottom: -40px;
+  margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-weight: bold;
+  font-family: $font-family-second;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
