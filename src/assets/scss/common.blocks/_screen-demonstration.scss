@@ -2,7 +2,7 @@
   overflow: hidden;
   height: 516px;
   position: relative;
-  padding-top: 71px;
+  margin-top: 71px;
 }
 
 .screen-demonstration__main {
@@ -32,4 +32,10 @@
 
 .screen-demonstration__container-1 {
 
+}
+
+@media (max-width: 767.98px) {
+  .screen-demonstration {
+    height: 400px;
+  }
 }

@@ -36,3 +36,16 @@ a.media-main__text {
   line-height: 17px;
   color: #B65855;
 }
+
+@media (max-width: 767.98px) {
+  .media-main {
+    flex-direction: column;
+
+    img {
+      margin-right: 0 !important;
+      max-width: 100%;
+      width: 100%;
+      height: 150px;
+    }
+  }
+}

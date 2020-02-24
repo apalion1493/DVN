@@ -36,7 +36,15 @@
     input {
       max-width: 277px;
       height: 40px;
-      color: #333333
+      color: #333333;
+
+      &:first-child {
+        margin-right: 7px;
+      }
+
+      &:last-child {
+        margin-left: 7px;
+      }
     }
   }
 }
@@ -66,5 +74,50 @@
 
   &:hover {
     color: #ffffff;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .applications__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .applications_container .row>div:last-child {
+    padding-left: 15px;
+  }
+
+  .applications__wrapper {
+    margin-bottom: 30px;
+  }
+
+  .applications_container {
+    .gold-btn {
+      max-width: 100%;
+    }
+
+    h3 {
+      margin-bottom: 8px;
+    }
+
+    .main-text {
+      margin-bottom: 20px;
+    }
+
+    form input {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 10px;
+
+      &:first-child,
+      &:last-child {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+
+    form .form-group {
+      margin-bottom: 0;
+    }
   }
 }

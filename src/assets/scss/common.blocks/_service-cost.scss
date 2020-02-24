@@ -23,3 +23,32 @@
   text-align: center;
   color: #741E1F;
 }
+
+@media (max-width: 1199.98px) {
+  .service-cost__second-table {
+    thead {
+      display: none;
+    }
+
+    tr {
+      height: 63px;
+      border: 1px solid #E0E0E0;
+
+      &:nth-child(odd) {
+        background: rgba(233, 233, 231, .7);
+      }
+
+      &:nth-child(even) {
+        background: initial !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .service-cost__footer-text {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+  }
+}

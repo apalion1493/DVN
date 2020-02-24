@@ -4,6 +4,10 @@
   h2 {
     margin-bottom: 30px;
   }
+
+  iframe {
+    width: 100%;
+  }
 }
 
 .horizontal-drilling__img-text {
@@ -55,6 +59,46 @@
   margin-top: 11px;
 }
 
-.horizontal-drilling-container__wrapper {
+@media (max-width: 1199.98px) {
+  .horizontal-drilling__img {
+    margin-bottom: 40px;
 
+    img {
+      max-width: 500px;
+    }
+  }
+}
+
+@media (max-width: 767.98px)  {
+  .horizontal-drilling_container {
+    padding-top: 26px;
+
+    iframe {
+      height: 143px;
+    }
+
+    h2 {
+      margin-bottom: 25px;
+    }
+
+    h3 {
+      margin-bottom: 16px;
+    }
+  }
+
+  .horizontal-drilling__img {
+    margin-bottom: 20px;
+  }
+
+  .horizontal-drilling-container__wrapper {
+    padding-top: 33px !important;
+
+    &> p {
+      margin-bottom: 30px;
+    }
+  }
+
+  .horizontal-drilling-container__list {
+    padding-left: 10px;
+  }
 }

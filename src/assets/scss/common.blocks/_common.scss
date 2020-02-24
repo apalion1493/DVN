@@ -464,7 +464,6 @@ html, body {
     background-position-x: -300px!important;
   }
 
-  .image:nth-child(2) .item-img-1,
   .image:nth-child(2)  {
     background-position-x: -600px!important;
   }
@@ -523,3 +522,71 @@ html, body {
 
 
 ////////////////////
+
+@media (max-width: 1199.98px)  {
+  .owl-nav {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .app>.wrapper>.content {
+    width: calc(100% - 50px);
+  }
+
+  .left-container {
+    flex-basis: 50px;
+  }
+}
+
+@media (max-width: 767.98px)  {
+  #slider,
+  .slider-content,
+  .slider-item,
+  .item-img-1 {
+    height: 400px;
+  }
+
+  .slider-item,
+  .item-img-1 {
+    transform: none;
+  }
+
+  .communication-types__block-container {
+    justify-content: center;
+  }
+
+  .icon-cable {
+    width: 44px;
+    height: 44px;
+  }
+
+  .icon-cord {
+    width: 32px;
+    height: 32px;
+  }
+
+  .icon-gauge {
+    width: 36px;
+    height: 36px;
+  }
+
+  .icon-valve {
+    width: 36px;
+    height: 36px;
+  }
+
+  .icon-sewage {
+    width: 36px;
+    height: 36px;
+  }
+
+  .icon-heating-networks {
+    width: 36px;
+    height: 19px;
+  }
+
+  .circle-brown-wrapper {
+    display: none;
+  }
+}

@@ -31,3 +31,9 @@
   max-height: 209px;
   border-radius: 0;
 }
+
+@media (max-width: 767.98px)  {
+  .main-card .first-variation-title {
+    font-size: 16px;
+  }
+}

@@ -21,3 +21,9 @@
     margin-right: 0;
   }
 }
+
+@media (max-width: 1300px) {
+  .main-menu__item {
+    margin-right: 15px;
+  }
+}

@@ -58,3 +58,40 @@
 .header__btn {
   margin-left: auto;
 }
+
+.header__navigation {
+  margin-right: 10px;
+}
+
+@media (max-width: 1335px) {
+  .header__contactsBlock {
+    margin-left: 20px;
+  }
+
+  .header__infoBlock {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 1235px) {
+  .header__contactsBlock-tel {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header {
+    width: calc(100% - 50px);
+  }
+
+}
+
+@media (max-width: 767.98px) {
+  .header__contactsBlock-tel {
+    font-size: 17px;
+  }
+
+  .header__contactsBlock-mail {
+    font-size: 12px;
+  }
+}

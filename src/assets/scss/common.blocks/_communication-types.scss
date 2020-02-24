@@ -32,3 +32,18 @@
   font-family: $font-family-second;
   margin-top: 10px;
 }
+
+@media (max-width: 767.98px)  {
+  .communication-types__block-link {
+    font-size: 12px;
+  }
+
+  .communication-types__block-container {
+    min-width: 45px;
+    margin-right: 22px;
+  }
+
+  .communication-types_container h2 {
+    text-align: left;
+  }
+}

@@ -9,7 +9,6 @@
   .owl-nav {
     display: flex;
     justify-content: space-between;
-    max-width: 160px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 31px;
@@ -97,4 +96,23 @@
   margin-left: -8px;
   margin-right: -8px;
   position: relative;
+}
+
+@media (max-width: 767.98px) {
+  .our-work-GHB_container {
+    padding-top: 47px;
+
+    h2 {
+      text-align: left;
+    }
+
+    .our-work-GHB__subtitle {
+      text-align: left;
+    }
+
+    .owl-dots {
+      max-width: 170px;
+      width: 100%;
+    }
+  }
 }

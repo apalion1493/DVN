@@ -36,3 +36,25 @@
     color: #B65855;
   }
 }
+
+@media (max-width: 1199.98px) {
+  .technology-GNB__imgWrapper-text {
+    right: 0;
+  }
+
+  .technology-GNB__imgWrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px)  {
+  .technology-GNB_container {
+    .main-text {
+      font-size: 14px;
+    }
+
+    h2 {
+      text-align: left;
+    }
+  }
+}

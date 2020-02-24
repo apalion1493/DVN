@@ -73,3 +73,35 @@ h4.h4 {
   color: #555555;
   font-family: $font-family-first;
 }
+
+@media (max-width: 767.98px) {
+  h1.h1 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  h2.h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  h3.h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .first-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .main-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .first-variation-title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

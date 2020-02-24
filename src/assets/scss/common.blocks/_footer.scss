@@ -10,7 +10,6 @@
   line-height: 24px;
   font-family: $font-family-second;
   color: #FFFFFF;
-  height: 19px;
   display: block;
 }
 
@@ -85,4 +84,34 @@
 
 .footer__block-mt {
   margin-top: 36px;
+}
+
+@media (max-width: 1199.98px) {
+  .footer__logo {
+    width: 100%;
+    max-width: 195px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer {
+    padding-bottom: 30px;
+    margin-bottom: -1px;
+  }
+
+  .footer__title {
+    font-size: 14px;
+  }
+
+  .footer__block-mt {
+    margin-bottom: 35px;
+  }
+
+  .footer__title-null {
+    display: none;
+  }
+
+  .footer__wrapper-logo {
+    margin-top: 32px;
+  }
 }
