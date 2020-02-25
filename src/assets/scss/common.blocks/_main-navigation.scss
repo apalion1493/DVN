@@ -173,11 +173,28 @@
 }
 
 @media (max-width: 991.98px) {
+  .main-navigation__services {
+    margin-bottom: 42px;
+  }
+
+  .main-navigation__list {
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .main-navigation__rent {
+    padding-bottom: 26px;
+    padding-top: 30px;
+    background: rgba(0, 0, 0, .25);
+    height: 100%;
+  }
+
  .left-container .main-navigation {
    max-width: 100%;
    width: 50px !important;
-   padding-left: 5px;
-   padding-right: 5px;
+   padding-left: 0;
+   padding-right: 0;
    position: relative;
    min-height: 100vh;
 
@@ -186,7 +203,7 @@
    }
 
    .main-navigation__logo-text {
-     opacity: 0;
+     display: none;
    }
 
    .main-navigation__rent-vertical {
@@ -195,6 +212,8 @@
 
    .main-navigation__rent-horizontal {
      display: none;
+     padding-left: 10px;
+     margin-bottom: 16px;
    }
 
    .main-navigation__logo a {
@@ -203,7 +222,7 @@
      width: 22px;
      height: 31px;
      display: block;
-     margin-left: 7px;
+     margin-left: 15px;
    }
 
    .main-navigation__item-link {
@@ -216,12 +235,19 @@
     flex-basis: 100%;
     position: fixed !important;
     top: 0;
+    bottom: 0;
+    overflow-y: scroll !important;
     min-height: 100vh;
     z-index: 1000;
     width: 100%;
 
     .main-navigation__mob-close {
       display: block;
+    }
+
+    .main-navigation__rent {
+      padding-left: 5px;
+      padding-right: 5px;
     }
 
     .main-navigation {
@@ -269,7 +295,7 @@
   }
 
   .main-navigation__mob-close {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     z-index: 1000;
