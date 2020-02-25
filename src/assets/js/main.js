@@ -60,10 +60,12 @@ $(document).ready(function(){
 
 $('.main-navigation').click(function () {
     $('#aside1').addClass('active');
+    $('#app').addClass('active');
 });
 
 $('#main-navigation__mob-close-btn').click(function () {
    $('#aside1').removeClass('active');
+    $('#app').removeClass('active');
 });
 
 $('.header__wrapper-burger').click(function () {

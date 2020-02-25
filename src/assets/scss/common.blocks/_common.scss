@@ -536,6 +536,11 @@ html, body {
     width: calc(100% - 50px);
   }
 
+  .app.active>.wrapper>.content {
+    width: calc(100% - 50px);
+    margin-left: 51px;
+  }
+
   .left-container {
     flex-basis: 50px;
   }
