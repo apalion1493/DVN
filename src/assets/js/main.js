@@ -58,7 +58,15 @@ $(document).ready(function(){
     });
 });
 
+$('.main-navigation').click(function () {
+    $('#aside1').addClass('active');
+});
 
+$('#main-navigation__mob-close-btn').click(function () {
+   $('#aside1').removeClass('active');
+});
 
-
-
+$('.header__wrapper-burger').click(function () {
+    $('#header').toggleClass('active');
+    $('#burger').toggleClass('active');
+});
