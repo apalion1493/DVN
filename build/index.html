@@ -1530,11 +1530,12 @@
     $("#calculator-work__steps").steps();
 
     $(window).on('resize', function() {
-        $('#aside1').css('height', '100vh')
+        $('#aside1').css('min-height', '100vh')
     });
 
     jQuery('.wrapper > .content, .wrapper > .sidebar').theiaStickySidebar({
-        additionalMarginTop: 0
+        additionalMarginTop: 0,
+        updateSidebarHeight: '100vh'
     });
 
 </script>
