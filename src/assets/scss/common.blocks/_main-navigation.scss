@@ -184,7 +184,6 @@
 
   .main-navigation__wrapper {
     min-height: 100vh;
-    height: 120%;
     justify-content: space-between;
   }
   
@@ -335,6 +334,24 @@
       box-shadow: none;
       outline: none;
     }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .main-navigation__services {
+    margin-bottom: 15px;
+  }
+
+  .main-navigation__item {
+    margin-top: 10px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .main-navigation__logo {
+    margin-bottom: 15px;
   }
 }
 
