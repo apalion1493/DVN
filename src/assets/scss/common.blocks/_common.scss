@@ -1,6 +1,15 @@
-html, body {
-
-}
+//body {
+//  overflow: hidden;
+//}
+//
+//.content-wrapper {
+//  overflow-y: scroll;
+//  top: 0;
+//  left: 0;
+//  bottom: 0;
+//  right: 0;
+//  height: 100vh;
+//}
 
 .app {
   & > .wrapper {
@@ -502,5 +511,18 @@ html, body {
 
   .circle-brown-wrapper {
     display: none;
+  }
+
+  body {
+    overflow: hidden;
+  }
+
+  .content-wrapper {
+    overflow-y: scroll;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
   }
 }
