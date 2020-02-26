@@ -170,6 +170,10 @@
   flex-direction: column;
 }
 
+.main-navigation__mob-close {
+  display: none;
+}
+
 @media (min-height: 1020px) {
   .main-navigation {
     height: 100vh;
