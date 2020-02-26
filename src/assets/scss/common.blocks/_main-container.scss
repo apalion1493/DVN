@@ -3,6 +3,8 @@
   flex-direction: column;
   position: relative;
   padding-top: 71px;
+  width: 100%;
+  max-width: 1920px;
 
   &:before {
     content: '';

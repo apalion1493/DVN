@@ -33,6 +33,7 @@ body {
   flex-basis: 250px;
   position: relative;
   z-index: 1000;
+  transition: 0.3s;
 }
 
 .container {
@@ -421,6 +422,7 @@ body {
 #wrapper {
   width: calc(100% - 250px);
   height: 100%;
+  overflow: hidden;
   overflow-y: scroll;
   margin-left: auto;
 }

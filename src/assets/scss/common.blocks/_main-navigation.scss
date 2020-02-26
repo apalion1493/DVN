@@ -1,7 +1,6 @@
 .main-navigation {
   max-width: 250px;
   width: 100%;
-  //max-height: 1029px;
   background: linear-gradient(180deg, #3F80CD 0%, #3843A9 100%);
   display: flex;
   flex-direction: column;
@@ -210,9 +209,8 @@
 
   .left-container .main-navigation {
     max-width: 100%;
-    width: 50px !important;
-    padding-left: 0;
-    padding-right: 0;
+    width: 50px;
+    padding: 0;
     position: relative;
     min-height: 100vh;
     transition: width 0.3s;
@@ -253,10 +251,10 @@
   .left-container.active {
     overflow: hidden;
     flex-basis: 100%;
-    position: fixed !important;
+    position: fixed;
     top: 0;
     bottom: 0;
-    overflow-y: scroll !important;
+    overflow-y: scroll;
     min-height: 100vh;
     z-index: 1000;
     width: 100%;
@@ -275,8 +273,8 @@
     }
 
     .main-navigation {
-      width: 100% !important;
-      position: relative !important;
+      width: 100%;
+      position: relative;
       max-width: 100%;
       transition: all 0.3s;
     }
