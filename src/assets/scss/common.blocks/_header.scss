@@ -117,12 +117,15 @@
     }
 
     .header__wrapper {
-      height: 100%;
+      height: 100vh;
       flex-direction: column;
       align-items: flex-start;
       padding-top: 23px;
       padding-bottom: 31px;
       animation: top-menu 1s ease-in-out;
+      overflow-y: scroll;
+      top: 0;
+      bottom: 0;
     }
 
     .header__wrapper-mob {

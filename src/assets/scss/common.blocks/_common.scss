@@ -499,4 +499,17 @@
   .circle-brown-wrapper {
     display: none;
   }
+
+  body {
+    overflow-y: hidden;
+  }
+
+  .main-wrapper {
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+  }
 }
