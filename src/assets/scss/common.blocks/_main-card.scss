@@ -6,6 +6,10 @@
   border: none;
   border-radius: 0;
 
+  a {
+    text-decoration: none;
+  }
+
   .first-variation-title {
     margin-bottom: 10px;
     display: block;
@@ -30,6 +34,13 @@
 .main-card__img {
   max-height: 209px;
   border-radius: 0;
+}
+
+.main-card__img-link {
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 @media (max-width: 767.98px)  {

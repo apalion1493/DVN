@@ -394,25 +394,27 @@ body {
   top: 0;
   position: absolute;
   left: -50px;
-  background-size: 100% 516px !important;
+  //background-size: 100% 516px !important;
+  background-position: right !important;
+  background-size: cover !important;
   transform: translate3d(0, 0, 0) skew(8deg, 0deg);
   transition: all 0.5s;
 }
 
 .item-img-1-01 {
-  width: 749px;
+  width: 1045px;
 }
 
 .item-img-1-02 {
-  width: 700px;
+  width: 649px;
 }
 
 .item-img-1-03 {
-  width: 700px;
+  width: 675px;
 }
 
 .item-img-1-04 {
-  width: 700px;
+  width: 645px;
 }
 
 .item-text {

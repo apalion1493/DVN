@@ -4,13 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Trade Bot</title>
+    <title>dvn-stroy.ru</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap&subset=cyrillic,latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,400i,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+<div id="sidebar">
+    <div id="aside1" class="sidebar left-container">
+        <div class="theiaStickySidebar main-navigation">
+            <div class="main-navigation__wrapper">
+                <div class="main-navigation__logo">
+                    <a href="#"></a>
+                    <p class="main-navigation__logo-text">Горизонтально  направленное бурение</p>
+                </div>
+                <div class="main-navigation__services">
+                    <h4 class="h4">Услуги</h4>
+                    <ul class="main-navigation__list">
+                        <li class="main-navigation__item">
+                            <div class="main-navigation__item-block">
+                                <i class="main-navigation__item-icon main-navigation__item-icon-1"></i>
+                            </div>
+                            <a class="main-navigation__item-link" href="#">ГНБ – горизонтально направленное бурение</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <div class="main-navigation__item-block">
+                                <i class="main-navigation__item-icon main-navigation__item-icon-2"></i>
+                            </div>
+                            <a class="main-navigation__item-link" href="#">Продавливание стальных футляров</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <div class="main-navigation__item-block">
+                                <i class="main-navigation__item-icon main-navigation__item-icon-3"></i>
+                            </div>
+                            <a class="main-navigation__item-link" href="#">Бурошнековое бурение</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <div class="main-navigation__item-block">
+                                <i class="main-navigation__item-icon main-navigation__item-icon-3"></i>
+                            </div>
+                            <a class="main-navigation__item-link" href="#">Микротоннелирование AVN</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <div class="main-navigation__item-block">
+                                <i class="main-navigation__item-icon main-navigation__item-icon-6"></i>
+                            </div>
+                            <a class="main-navigation__item-link" href="#">Упровляемый прокол под дорогой</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <div class="main-navigation__item-block">
+                                <i class="main-navigation__item-icon main-navigation__item-icon-4"></i>
+                            </div>
+                            <a class="main-navigation__item-link" href="#">Прокладка футляров методом Грундорам</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <div class="main-navigation__item-block">
+                                <i class="main-navigation__item-icon main-navigation__item-icon-5"></i>
+                            </div>
+                            <a class="main-navigation__item-link" href="#">Бестраншейная прокладка труб</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-navigation__rent">
+                    <h4 class="h4 main-navigation__rent-horizontal">Аренда</h4>
+                    <h4 class="h4 main-navigation__rent-vertical">каталог</h4>
+                    <ul class="main-navigation__list main-navigation__rent-list">
+                        <li class="main-navigation__item">
+                            <div class="main-navigation__item-block">
+                                <i class="main-navigation__item-icon main-navigation__item-icon-setting"></i>
+                            </div>
+                            <a class="main-navigation__item-link" href="#">ГНБ установки</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <div class="main-navigation__item-block">
+                                <i class="main-navigation__item-icon main-navigation__item-icon-jack"></i>
+                            </div>
+                            <a class="main-navigation__item-link" href="#">Гидравлические домкраты</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <div class="main-navigation__item-block">
+                                <i class="main-navigation__item-icon main-navigation__item-icon-crane"></i>
+                            </div>
+                            <a class="main-navigation__item-link" href="#">Кран СПК-1000</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-navigation__mob-close">
+            <button id="main-navigation__mob-close-btn"></button>
+        </div>
+    </div>
+</div>
 <div id="wrapper" class="content">
     <div id="article" class="theiaStickySidebar main-container">
         <header id="header" class="section header">
@@ -568,9 +655,11 @@
                     <div class="col-12">
                         <div class="owl-carousel our-work-GHB__carousel">
                             <div class="card main-card">
-                                <img src="assets/img/our-work__1.jpg" class="card-img-top main-card__img" alt="">
+                                <a class="main-card__img-link" href="#">
+                                    <img src="assets/img/our-work__1.jpg" class="card-img-top main-card__img" alt="">
+                                </a>
                                 <div class="card-body main-card__body">
-                                    <span class="first-variation-title">Прокладка 2-х труб водопровода</span>
+                                    <a href="#" class="first-variation-title">Прокладка 2-х труб водопровода</a>
                                     <p class="main-card__description">Прокладка 2-х труб водопровода ПНД315 в Люберцах методом ГНБ.</p>
                                     <table class="table table-v2 mt-auto">
                                         <tbody>
@@ -587,9 +676,11 @@
                                 </div>
                             </div>
                             <div class="card main-card">
-                                <img src="assets/img/our-work__2.jpg" class="card-img-top main-card__img" alt="">
+                                <a href="#" class="main-card__img-link">
+                                    <img src="assets/img/our-work__2.jpg" class="card-img-top main-card__img" alt="">
+                                </a>
                                 <div class="card-body main-card__body">
-                                    <span class="first-variation-title">Прокладка самотечной канализации</span>
+                                    <a href="#" class="first-variation-title">Прокладка самотечной канализации</a>
                                     <p class="main-card__description">Бестраншейная прокладка самотечной канализации.</p>
                                     <table class="table table-v2 mt-auto">
                                         <tbody>
@@ -606,9 +697,11 @@
                                 </div>
                             </div>
                             <div class="card main-card">
-                                <img src="assets/img/our-work__3.jpg" class="card-img-top main-card__img" alt="">
+                                <a class="main-card__img-link" href="#">
+                                    <img src="assets/img/our-work__3.jpg" class="card-img-top main-card__img" alt="">
+                                </a>
                                 <div class="card-body main-card__body">
-                                    <span class="first-variation-title">Прокладка полиэтиленовых труб</span>
+                                    <a href="#" class="first-variation-title">Прокладка полиэтиленовых труб</a>
                                     <p class="main-card__description">Бестраншейная прокладка полиэтиленовых труб диаметром 400мм для пожарного водопровод.</p>
                                     <table class="table table-v2 mt-auto">
                                         <tbody>
@@ -625,9 +718,11 @@
                                 </div>
                             </div>
                             <div class="card main-card">
-                                <img src="assets/img/our-work__1.jpg" class="card-img-top main-card__img" alt="">
+                                <a class="main-card__img-link" href="#">
+                                    <img src="assets/img/our-work__1.jpg" class="card-img-top main-card__img" alt="">
+                                </a>
                                 <div class="card-body main-card__body">
-                                    <span class="first-variation-title">Прокладка 2-х труб водопровода</span>
+                                    <a href="#" class="first-variation-title">Прокладка 2-х труб водопровода</a>
                                     <p class="main-card__description">Прокладка 2-х труб водопровода ПНД315 в Люберцах методом ГНБ.</p>
                                     <table class="table table-v2 mt-auto">
                                         <tbody>
@@ -644,9 +739,11 @@
                                 </div>
                             </div>
                             <div class="card main-card">
-                                <img src="assets/img/our-work__2.jpg" class="card-img-top main-card__img" alt="">
+                                <a href="#" class="main-card__img-link">
+                                    <img src="assets/img/our-work__2.jpg" class="card-img-top main-card__img" alt="">
+                                </a>
                                 <div class="card-body main-card__body">
-                                    <span class="first-variation-title">Прокладка самотечной канализации</span>
+                                    <a href="#" class="first-variation-title">Прокладка самотечной канализации</a>
                                     <p class="main-card__description">Бестраншейная прокладка самотечной канализации.</p>
                                     <table class="table table-v2 mt-auto">
                                         <tbody>
@@ -663,9 +760,11 @@
                                 </div>
                             </div>
                             <div class="card main-card">
-                                <img src="assets/img/our-work__3.jpg" class="card-img-top main-card__img" alt="">
+                                <a class="main-card__img-link" href="#">
+                                    <img src="assets/img/our-work__3.jpg" class="card-img-top main-card__img" alt="">
+                                </a>
                                 <div class="card-body main-card__body">
-                                    <span class="first-variation-title">Прокладка полиэтиленовых труб</span>
+                                    <a href="#" class="first-variation-title">Прокладка полиэтиленовых труб</a>
                                     <p class="main-card__description">Бестраншейная прокладка полиэтиленовых труб диаметром 400мм для пожарного водопровод.</p>
                                     <table class="table table-v2 mt-auto">
                                         <tbody>
@@ -693,11 +792,11 @@
                 <div class="row installation-rental__row">
                     <div class="col-xl-3 col-md-6">
                         <div class="card main-card">
-                            <div class="main-card__image-container">
+                            <a href="#" class="main-card__image-container">
                                 <img src="assets/img/setting-01.png" class="card-img-top main-card__img" alt="...">
-                            </div>
+                            </a>
                             <div class="card-body main-card__body">
-                                <span class="first-variation-title">Drill TO60D</span>
+                                <a href="#" class="first-variation-title">Drill TO60D</a>
                                 <table class="table table-v2">
                                     <tbody>
                                     <tr>
@@ -726,11 +825,11 @@
                     </div>
                     <div class="col-xl-3 col-md-6">
                         <div class="card main-card">
-                            <div class="main-card__image-container">
+                            <a href="#" class="main-card__image-container">
                                 <img src="assets/img/setting-02.png" class="card-img-top main-card__img" alt="...">
-                            </div>
+                            </a>
                             <div class="card-body main-card__body">
-                                <span class="first-variation-title">Vermeer D80х100</span>
+                                <a href="#" class="first-variation-title">Vermeer D80х100</a>
                                 <table class="table table-v2">
                                     <tbody>
                                     <tr>
@@ -759,11 +858,11 @@
                     </div>
                     <div class="col-xl-3 col-md-6">
                         <div class="card main-card">
-                            <div class="main-card__image-container">
+                            <a href="#" class="main-card__image-container">
                                 <img src="assets/img/setting-03.png" class="card-img-top main-card__img" alt="...">
-                            </div>
+                            </a>
                             <div class="card-body main-card__body">
-                                <span class="first-variation-title">Vermeer D36х50</span>
+                                <a href="#" class="first-variation-title">Vermeer D36х50</a>
                                 <table class="table table-v2">
                                     <tbody>
                                     <tr>
@@ -792,11 +891,11 @@
                     </div>
                     <div class="col-xl-3 col-md-6">
                         <div class="card main-card">
-                            <div class="main-card__image-container">
+                            <a href="#" class="main-card__image-container">
                                 <img src="assets/img/setting-04.png" class="card-img-top main-card__img" alt="...">
-                            </div>
+                            </a>
                             <div class="card-body main-card__body">
-                                <span class="first-variation-title">Vermeer D24x40</span>
+                                <a href="#" class="first-variation-title">Vermeer D24x40</a>
                                 <table class="table table-v2">
                                     <tbody>
                                     <tr>
@@ -1063,65 +1162,81 @@
                     <div class="col-12">
                         <div class="owl-carousel owl-carousel-2">
                             <div class="card main-card">
-                                <img src="assets/img/gnb-image.png" class="card-img-top main-card__img" alt="...">
+                                <a class="main-card__img-link" href="#">
+                                    <img src="assets/img/gnb-image.png" class="card-img-top main-card__img" alt="...">
+                                </a>
                                 <div class="card-body main-card__body">
-                                    <span class="first-variation-title">ГНБ – горизонтально направленное бурение</span>
+                                    <a href="#" class="first-variation-title">ГНБ – горизонтально направленное бурение</a>
                                     <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
                                     <button class="btn white-button mx-auto">Подробнее</button>
                                 </div>
                             </div>
                             <div class="card main-card">
-                                <img src="assets/img/rock-drilling-image.png" class="card-img-top main-card__img" alt="...">
+                                <a href="#" class="main-card__img-link">
+                                    <img src="assets/img/rock-drilling-image.png" class="card-img-top main-card__img" alt="...">
+                                </a>
                                 <div class="card-body main-card__body">
-                                    <span class="first-variation-title">Бурошнековое бурение</span>
+                                    <a href="#" class="first-variation-title">Бурошнековое бурение</a>
                                     <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
                                     <button class="btn white-button mx-auto">Подробнее</button>
                                 </div>
                             </div>
                             <div class="card main-card">
-                                <img src="assets/img/punching-image.png" class="card-img-top main-card__img" alt="...">
+                                <a href="#" class="main-card__img-link">
+                                    <img src="assets/img/punching-image.png" class="card-img-top main-card__img" alt="...">
+                                </a>
                                 <div class="card-body main-card__body">
-                                    <span class="first-variation-title">Продавливание стальных футляров</span>
+                                    <a href="#" class="first-variation-title">Продавливание стальных футляров</a>
                                     <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
                                     <button class="btn white-button mx-auto">Подробнее</button>
                                 </div>
                             </div>
                             <div class="card main-card">
-                                <img src="assets/img/avn-image.png" class="card-img-top main-card__img" alt="...">
+                                <a class="main-card__img-link" href="#">
+                                    <img src="assets/img/avn-image.png" class="card-img-top main-card__img" alt="...">
+                                </a>
                                 <div class="card-body main-card__body">
-                                    <span class="first-variation-title">Микротоннелирование AVN</span>
+                                    <a href="#" class="first-variation-title">Микротоннелирование AVN</a>
                                     <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
                                     <button class="btn white-button mx-auto">Подробнее</button>
                                 </div>
                             </div>
                             <div class="card main-card">
-                                <img src="assets/img/gnb-image.png" class="card-img-top main-card__img" alt="...">
+                                <a class="main-card__img-link" href="#">
+                                    <img src="assets/img/gnb-image.png" class="card-img-top main-card__img" alt="...">
+                                </a>
                                 <div class="card-body main-card__body">
-                                    <span class="first-variation-title">ГНБ – горизонтально направленное бурение</span>
+                                    <a href="#" class="first-variation-title">ГНБ – горизонтально направленное бурение</a>
                                     <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
                                     <button class="btn white-button mx-auto">Подробнее</button>
                                 </div>
                             </div>
                             <div class="card main-card">
-                                <img src="assets/img/rock-drilling-image.png" class="card-img-top main-card__img" alt="...">
+                                <a href="#" class="main-card__img-link">
+                                    <img src="assets/img/rock-drilling-image.png" class="card-img-top main-card__img" alt="...">
+                                </a>
                                 <div class="card-body main-card__body">
-                                    <span class="first-variation-title">Бурошнековое бурение</span>
+                                    <a href="#" class="first-variation-title">Бурошнековое бурение</a>
                                     <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
                                     <button class="btn white-button mx-auto">Подробнее</button>
                                 </div>
                             </div>
                             <div class="card main-card">
-                                <img src="assets/img/punching-image.png" class="card-img-top main-card__img" alt="...">
+                                <a href="#" class="main-card__img-link">
+                                    <img src="assets/img/punching-image.png" class="card-img-top main-card__img" alt="...">
+                                </a>
                                 <div class="card-body main-card__body">
-                                    <span class="first-variation-title">Продавливание стальных футляров</span>
+                                    <a href="#" class="first-variation-title">Продавливание стальных футляров</a>
                                     <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
                                     <button class="btn white-button mx-auto">Подробнее</button>
                                 </div>
                             </div>
                             <div class="card main-card">
-                                <img src="assets/img/avn-image.png" class="card-img-top main-card__img" alt="...">
+                                <a class="main-card__img-link" href="#">
+                                    <img src="assets/img/avn-image.png" class="card-img-top main-card__img" alt="...">
+                                </a>
                                 <div class="card-body main-card__body">
-                                    <span class="first-variation-title">Микротоннелирование AVN</span>
+                                    <a href="#" class="first-variation-title">Микротоннелирование AVN</a>
                                     <p class="main-card__description">Прокладка  кабеля различного назначения (канализация, водопровод, газопровод, прочие коммуникации) </p>
                                     <button class="btn white-button mx-auto">Подробнее</button>
                                 </div>
@@ -1137,9 +1252,13 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-12">
                         <div class="media media-main">
-                            <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            <a href="#">
+                                <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            </a>
                             <div class="media-body media-main__body">
-                                <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                <a href="#">
+                                    <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                </a>
                                 <time class="media-main__data">27 сентября 2019</time>
                                 <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
                                 <a class="media-main__text" href="#">Подробнее</a>
@@ -1148,9 +1267,13 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="media media-main">
-                            <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            <a href="#">
+                                <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            </a>
                             <div class="media-body media-main__body">
-                                <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                <a href="#">
+                                    <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                </a>
                                 <time class="media-main__data">27 сентября 2019</time>
                                 <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
                                 <a class="media-main__text" href="#">Подробнее</a>
@@ -1159,9 +1282,13 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="media media-main">
-                            <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            <a href="#">
+                                <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            </a>
                             <div class="media-body media-main__body">
-                                <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                <a href="#">
+                                    <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                </a>
                                 <time class="media-main__data">27 сентября 2019</time>
                                 <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
                                 <a class="media-main__text" href="#">Подробнее</a>
@@ -1170,9 +1297,13 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="media media-main">
-                            <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            <a href="#">
+                                <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            </a>
                             <div class="media-body media-main__body">
-                                <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                <a href="#">
+                                    <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                </a>
                                 <time class="media-main__data">27 сентября 2019</time>
                                 <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
                                 <a class="media-main__text" href="#">Подробнее</a>
@@ -1184,9 +1315,13 @@
                 <div class="row news-company__block-hide">
                     <div class="col-xl-6 col-lg-12">
                         <div class="media media-main">
-                            <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            <a href="#">
+                                <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            </a>
                             <div class="media-body media-main__body">
-                                <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                <a href="#">
+                                    <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                </a>
                                 <time class="media-main__data">27 сентября 2019</time>
                                 <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
                                 <a class="media-main__text" href="#">Подробнее</a>
@@ -1195,9 +1330,13 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="media media-main">
-                            <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            <a href="#">
+                                <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            </a>
                             <div class="media-body media-main__body">
-                                <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                <a href="#">
+                                    <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                </a>
                                 <time class="media-main__data">27 сентября 2019</time>
                                 <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
                                 <a class="media-main__text" href="#">Подробнее</a>
@@ -1206,9 +1345,13 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="media media-main">
-                            <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            <a href="#">
+                                <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            </a>
                             <div class="media-body media-main__body">
-                                <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                <a href="#">
+                                    <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                </a>
                                 <time class="media-main__data">27 сентября 2019</time>
                                 <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
                                 <a class="media-main__text" href="#">Подробнее</a>
@@ -1217,9 +1360,13 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="media media-main">
-                            <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            <a href="#">
+                                <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            </a>
                             <div class="media-body media-main__body">
-                                <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                <a href="#">
+                                    <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                </a>
                                 <time class="media-main__data">27 сентября 2019</time>
                                 <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
                                 <a class="media-main__text" href="#">Подробнее</a>
@@ -1228,9 +1375,13 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="media media-main">
-                            <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            <a href="#">
+                                <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            </a>
                             <div class="media-body media-main__body">
-                                <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                <a href="#">
+                                    <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                </a>
                                 <time class="media-main__data">27 сентября 2019</time>
                                 <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
                                 <a class="media-main__text" href="#">Подробнее</a>
@@ -1239,9 +1390,13 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="media media-main">
-                            <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            <a href="#">
+                                <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            </a>
                             <div class="media-body media-main__body">
-                                <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                <a href="#">
+                                    <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                </a>
                                 <time class="media-main__data">27 сентября 2019</time>
                                 <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
                                 <a class="media-main__text" href="#">Подробнее</a>
@@ -1250,9 +1405,13 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="media media-main">
-                            <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            <a href="#">
+                                <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            </a>
                             <div class="media-body media-main__body">
-                                <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                <a href="#">
+                                    <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                </a>
                                 <time class="media-main__data">27 сентября 2019</time>
                                 <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
                                 <a class="media-main__text" href="#">Подробнее</a>
@@ -1261,9 +1420,13 @@
                     </div>
                     <div class="col-xl-6 col-lg-12">
                         <div class="media media-main">
-                            <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            <a href="#">
+                                <img src="assets/img/news-image.jpg" class="mr-3 media-main__img" alt="...">
+                            </a>
                             <div class="media-body media-main__body">
-                                <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                <a href="#">
+                                    <h5 class="mt-0 second-variation-title media-main__title">Бурение в Люберцах</h5>
+                                </a>
                                 <time class="media-main__data">27 сентября 2019</time>
                                 <p class="media-main__text">Компания ДВН-Строй осуществила прокладку двух футляров ПНД160 длиной 80м в г.Люберцы. Работы по прокладке футляров методом</p>
                                 <a class="media-main__text" href="#">Подробнее</a>
@@ -1381,99 +1544,6 @@
         </footer>
     </div>
 </div>
-<div id="sidebar">
-    <div id="aside1" class="sidebar left-container">
-        <div class="theiaStickySidebar main-navigation">
-            <div class="main-navigation__wrapper">
-                <div class="main-navigation__logo">
-                    <a href="#"></a>
-                    <p class="main-navigation__logo-text">Горизонтально  направленное бурение</p>
-                </div>
-                <div class="main-navigation__services">
-                    <h4 class="h4">Услуги</h4>
-                    <ul class="main-navigation__list">
-                        <li class="main-navigation__item">
-                            <div class="main-navigation__item-block">
-                                <i class="main-navigation__item-icon main-navigation__item-icon-1"></i>
-                            </div>
-                            <a class="main-navigation__item-link" href="#">ГНБ – горизонтально направленное бурение</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <div class="main-navigation__item-block">
-                                <i class="main-navigation__item-icon main-navigation__item-icon-2"></i>
-                            </div>
-                            <a class="main-navigation__item-link" href="#">Продавливание стальных футляров</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <div class="main-navigation__item-block">
-                                <i class="main-navigation__item-icon main-navigation__item-icon-3"></i>
-                            </div>
-                            <a class="main-navigation__item-link" href="#">Бурошнековое бурение</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <div class="main-navigation__item-block">
-                                <i class="main-navigation__item-icon main-navigation__item-icon-3"></i>
-                            </div>
-                            <a class="main-navigation__item-link" href="#">Микротоннелирование AVN</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <div class="main-navigation__item-block">
-                                <i class="main-navigation__item-icon main-navigation__item-icon-6"></i>
-                            </div>
-                            <a class="main-navigation__item-link" href="#">Упровляемый прокол под дорогой</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <div class="main-navigation__item-block">
-                                <i class="main-navigation__item-icon main-navigation__item-icon-4"></i>
-                            </div>
-                            <a class="main-navigation__item-link" href="#">Прокладка футляров методом Грундорам</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <div class="main-navigation__item-block">
-                                <i class="main-navigation__item-icon main-navigation__item-icon-5"></i>
-                            </div>
-                            <a class="main-navigation__item-link" href="#">Бестраншейная прокладка труб</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="main-navigation__rent">
-                    <h4 class="h4 main-navigation__rent-horizontal">Аренда</h4>
-                    <h4 class="h4 main-navigation__rent-vertical">каталог</h4>
-                    <ul class="main-navigation__list main-navigation__rent-list">
-                        <li class="main-navigation__item">
-                            <div class="main-navigation__item-block">
-                                <i class="main-navigation__item-icon main-navigation__item-icon-setting"></i>
-                            </div>
-                            <a class="main-navigation__item-link" href="#">ГНБ установки</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <div class="main-navigation__item-block">
-                                <i class="main-navigation__item-icon main-navigation__item-icon-jack"></i>
-                            </div>
-                            <a class="main-navigation__item-link" href="#">Гидравлические домкраты</a>
-                        </li>
-                        <li class="main-navigation__item">
-                            <div class="main-navigation__item-block">
-                                <i class="main-navigation__item-icon main-navigation__item-icon-crane"></i>
-                            </div>
-                            <a class="main-navigation__item-link" href="#">Кран СПК-1000</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="main-navigation__mob-close">
-            <button id="main-navigation__mob-close-btn"></button>
-        </div>
-    </div>
-</div>
-
-<!--<main id="app" class="app">-->
-<!--    <div class="wrapper">-->
-<!--        -->
-<!--    </div>-->
-<!--    -->
-<!--</main>-->
 
 <!--SCRIPTS-->
 <script src="assets/js/libs.min.js"></script>
@@ -1498,6 +1568,9 @@
                 },
                 1200:{
                     items:3
+                },
+                1700: {
+                    items:4
                 }
             }
         });
@@ -1515,43 +1588,17 @@
                 },
                 1200:{
                     items:3
+                },
+                1700: {
+                    items:4
                 }
             }
         });
 
-        $('.news-company__btn-all').click(function () {
-            $(this).removeClass('d-block').addClass('d-none');
-            $('#news-company').addClass('block-hidden')
-        });
 
-        $('.news-company__btn-hide').click(function () {
-            $('.news-company__btn-all').removeClass('d-none').addClass('d-block');
-            $('#news-company').removeClass('block-hidden')
-        })
     });
 
-
     $("#calculator-work__steps").steps();
-
-
-    // jQuery('.wrapper > .content, .wrapper > .sidebar').theiaStickySidebar({
-    //     additionalMarginTop: 0,
-    //     updateSidebarHeight: '100vh'
-    // });
-
-    let lastScrollTop = 0;
-    let sidebar = document.querySelector('#sidebar');
-    let wrapper = document.querySelector('#wrapper');
-
-    wrapper.addEventListener('scroll', function() {
-        let wrapperLast = wrapper.scrollTop;
-        let sidebarLast = sidebar.scrollTop;
-
-        sidebar.scrollTop = sidebarLast + (wrapperLast - lastScrollTop);
-
-        lastScrollTop = wrapperLast;
-    }, false);
-
 </script>
 
 </body>

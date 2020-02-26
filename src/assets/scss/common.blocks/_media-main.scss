@@ -1,6 +1,14 @@
 .media-main {
   margin-bottom: 30px;
 
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   img {
     max-width: 179px;
   }
