@@ -165,6 +165,11 @@
   left: -14px;
 }
 
+.main-navigation__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-height: 1020px) {
   .main-navigation {
     height: 100vh;
@@ -175,6 +180,11 @@
 @media (max-width: 991.98px) {
   .resize-sensor {
     display: none;
+  }
+
+  .main-navigation__wrapper {
+    min-height: 100vh;
+    justify-content: space-between;
   }
   
   .main-navigation__services {
