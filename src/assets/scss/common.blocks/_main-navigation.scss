@@ -353,6 +353,10 @@
   .main-navigation__logo {
     margin-bottom: 15px;
   }
+
+  .main-navigation__wrapper {
+    min-height: 120vh;
+  }
 }
 
 @keyframes rightAnimation {
