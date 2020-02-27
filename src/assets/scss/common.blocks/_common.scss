@@ -37,12 +37,12 @@ body {
 }
 
 .container {
-  max-width: 1920px;
+  max-width: 1500px;
   margin-left: 0;
 }
 
 .section {
-  max-width: 1920px;
+  max-width: 1500px;
 }
 
 .icon-cable {
@@ -420,13 +420,10 @@ body {
   max-height: 100%;
   overflow: hidden;
 }
-#sidebar:hover {
-  overflow-y: scroll;
-}
 
-@media (min-width: 1500px) {
+@media (min-width: 1300px) {
   .item-img-1-01 {
-    width: 1045px;
+    width: 865px;
   }
 
   .item-img-1-02 {
@@ -463,6 +460,7 @@ body {
 }
 
 @media (max-width: 991.98px) {
+
   .app>.wrapper>.content {
     width: calc(100% - 50px);
   }

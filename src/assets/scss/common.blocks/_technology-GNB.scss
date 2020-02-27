@@ -12,12 +12,16 @@
 
 .technology-GNB__imgWrapper {
   position: relative;
+
+  img {
+    max-width: 528px;
+  }
 }
 
 .technology-GNB__imgWrapper-text {
   position: absolute;
   top: 160px;
-  right: 50px;
+  right: 0;
   max-width: 220px;
 
   p {
@@ -34,6 +38,12 @@
     line-height: 24px;
     text-decoration-line: underline;
     color: #B65855;
+  }
+}
+
+@media (min-width: 1500px) {
+  .technology-GNB__imgWrapper-text {
+    right: 100px;
   }
 }
 

@@ -42,6 +42,10 @@
         color: #B45754;
         font-family: $font-family-first;
         padding-left: 28px;
+
+        br {
+          display: none;
+        }
       }
     }
 
@@ -83,5 +87,14 @@
 
   .table.table-v1 tr td:first-child {
     width: 45%;
+  }
+}
+
+@media (max-width: 500px) {
+  .table.table-v1 tr td:last-child span {
+
+    br {
+      display: inline;
+    }
   }
 }
