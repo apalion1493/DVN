@@ -16,6 +16,12 @@
   line-height: 17px;
   text-align: center;
   color: #333333;
+  transition: background 0.3s;
+
+  &:hover {
+    background: #F6F6F4;
+    transition: background 0.3s;
+  }
 }
 
 .gold-btn {
@@ -39,6 +45,7 @@
 
   &:hover {
     color: #BF5E5B;
+    background: linear-gradient(76.58deg, #FFCF23 -17.78%, #FFE68C 93.17%);
   }
 }
 
@@ -54,6 +61,7 @@
   width: 168px;
 
   &:hover {
+    background: linear-gradient(77.91deg, #713331 -17.78%, #9F4E4B 93.17%);
     color: #ffffff;
   }
 

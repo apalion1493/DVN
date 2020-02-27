@@ -242,9 +242,7 @@
   margin: 0 0 0 1em;
 }
 
-.wizard > .actions a,
-.wizard > .actions a:hover,
-.wizard > .actions a:active {
+.wizard > .actions a {
   color: #741E1F;
   display: flex;
   justify-content: center;
@@ -255,6 +253,13 @@
   border-radius: 3px;
   min-width: 163px;
   height: 40px;
+  transition: background 0.3s;
+
+  &:hover,
+  &:active {
+    background: #e9e9e7;
+    transition: background 0.3s;
+  }
 
   span {
     font-weight: bold;

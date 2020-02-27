@@ -427,15 +427,15 @@ body {
   }
 
   .item-img-1-02 {
-    width: 649px;
+    width: 820px;
   }
 
   .item-img-1-03 {
-    width: 675px;
+    width: 870px;
   }
 
   .item-img-1-04 {
-    width: 645px;
+    width: 675px;
   }
 
   .item-img-1 {
@@ -452,6 +452,12 @@ body {
 
 
 ////////////////////
+
+@media (max-width: 1300px)  {
+  .item-img-1 {
+    width: 613px;
+  }
+}
 
 @media (max-width: 1199.98px)  {
   .owl-nav {
