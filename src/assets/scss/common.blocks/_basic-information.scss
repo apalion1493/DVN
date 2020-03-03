@@ -1,0 +1,27 @@
+.basic-information__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.basic-information__block-img {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.basic-information__block-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.basic-information__block-text {
+
+}
