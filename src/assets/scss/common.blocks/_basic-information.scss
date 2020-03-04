@@ -1,3 +1,26 @@
+.basic-information {
+  padding-top: 80px;
+
+  .table.basic-information__table {
+    tr {
+      height: 49px;
+    }
+
+    p {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 24px;
+      color: #555555;
+      margin-bottom: 0;
+      display: inline-block;
+    }
+
+    span {
+      color: #333333;
+    }
+  }
+}
+
 .basic-information__block {
   display: flex;
   flex-direction: column;
@@ -23,5 +46,112 @@
 }
 
 .basic-information__block-text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #555555;
+  margin-bottom: 0;
+  max-width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.basic-information__media {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.basic-information__media-img {
+  min-width: 124px;
+  width: 124px;
+  height: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #B45754;
+  margin-right: 40px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.basic-information__media-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #B65855;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.basic-information__media-text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #555555;
+  margin-bottom: 0;
+  max-width: 342px;
+}
+
+.basic-information__requisites-title {
+  margin-top: 90px;
+  margin-bottom: 36px;
+}
+
+.basic-information__top-title {
+  margin-bottom: 35px;
+}
+
+@media (max-width: 1199.98px) {
+  .basic-information__block-text {
+    max-width: 100%;
+  }
+
+  .basic-information__block {
+    margin-bottom: 40px;
+  }
+
+  .basic-information__media-text {
+    max-width: 100%;
+  }
+
+  .basic-information .table.basic-information__table p {
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .basic-information {
+    padding-top: 40px;
+  }
+
+  .basic-information__block-text,
+  .basic-information__media-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .basic-information__media-img {
+    min-width: 80px;
+    width: 80px;
+    height: 80px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .basic-information__media {
+    flex-direction: column;
+  }
+
+  .basic-information__table {
+    min-width: 494px;
+    overflow-y: scroll;
+  }
+
+  .basic-information__table-wrapper {
+    overflow-y: scroll;
+  }
 }

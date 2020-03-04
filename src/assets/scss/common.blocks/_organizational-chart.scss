@@ -1,5 +1,5 @@
 .organizational-chart {
-
+  padding-top: 75px;
 }
 
 .organizational-chart__table-text {
@@ -14,4 +14,70 @@
   font-size: 16px;
   line-height: 20px;
   font-family: $font-family-first;
+}
+
+.organizational-chart__svg {
+  margin-bottom: 66px;
+}
+
+.organizational-chart__text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.organizational-chart__list {
+  margin-top: 34px;
+  padding-left: 60px;
+  list-style-type: none;
+}
+
+.organizational-chart__item {
+  margin-bottom: 20px;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: -30px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #B65855;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.organizational-chart__link {
+  text-decoration-line: underline;
+  color: #B65855;
+
+  &:hover {
+    color: #B65855;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .organizational-chart__text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .organizational-chart__svg {
+    display: none !important;
+  }
+
+  .organizational-chart__list {
+    padding-left: 30px;
+    margin-bottom: 30px;
+  }
+
+  .organizational-chart__item:before {
+    left: -25px;
+  }
 }

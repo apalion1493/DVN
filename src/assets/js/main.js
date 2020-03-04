@@ -148,4 +148,4 @@ $('.news-company__btn-all').click(function () {
 $('.news-company__btn-hide').click(function () {
     $('.news-company__btn-all').removeClass('d-none').addClass('d-block');
     $('#news-company').removeClass('block-hidden')
-})
+});
