@@ -5,7 +5,7 @@ https://apalion1493.github.io/DVN/build/About.html
 
 https://apalion1493.github.io/DVN/build/avn.html
 
-https://apalion1493.github.io/DVN/build/bureshnekogo-burenia.html
+https://apalion1493.github.io/DVN/build/bureshnekovogo-burenia.html
 
 https://apalion1493.github.io/DVN/build/contacts.html
 
