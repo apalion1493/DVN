@@ -1,0 +1,105 @@
+.prices-hhd-fourth-screen {
+  margin-bottom: 30px;
+}
+
+.prices-hhd-fourth-screen__title {
+  margin-bottom: 45px;
+}
+
+.prices-hhd-fourth-screen__container {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prices-hhd-fourth-screen__container-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  display: block;
+  margin-bottom: 36px;
+  font-family: $font-family-second;
+}
+
+.prices-hhd-fourth-screen__container-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.prices-hhd-fourth-screen__container-block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  span {
+    margin-right: 32px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #777777;
+    margin-bottom: 0;
+    max-width: 135px;
+  }
+}
+
+.prices-hhd-fourth-screen__icon-1 {
+  background: url("../img/prices-hhd/prices-hhd-fourth-screen__icon-1.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 85px;
+  height: 85px;
+  display: block;
+}
+
+.prices-hhd-fourth-screen__icon-2 {
+  background: url("../img/prices-hhd/prices-hhd-fourth-screen__icon-2.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 85px;
+  height: 85px;
+  display: block;
+}
+
+.prices-hhd-fourth-screen__icon-3 {
+  background: url("../img/prices-hhd/prices-hhd-fourth-screen__icon-3.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 85px;
+  height: 85px;
+  display: block;
+}
+
+.prices-hhd-fourth-screen__list {
+  margin-top: 88px;
+}
+
+.prices-hhd-fourth-screen__item {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.prices-hhd-fourth-screen__item-img {
+  min-width: 56px;
+  width: 56px;
+  display: flex;
+  justify-content: center;
+  margin-right: 32px;
+}
+
+@media (max-width: 767.98px) {
+  .prices-hhd-fourth-screen__container {
+    display: none;
+  }
+
+  .prices-hhd-fourth-screen__list {
+    margin-top: 30px;
+  }
+
+  .prices-hhd-fourth-screen__item-img {
+    margin-right: 15px;
+  }
+}

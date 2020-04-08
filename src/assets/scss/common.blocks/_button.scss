@@ -59,6 +59,9 @@
   font-family: $font-family-first;
   height: 40px;
   width: 168px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
     background: linear-gradient(77.91deg, #713331 -17.78%, #9F4E4B 93.17%);

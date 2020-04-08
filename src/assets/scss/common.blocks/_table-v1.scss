@@ -31,7 +31,7 @@
       vertical-align: middle;
     }
 
-    td:last-child {
+    td:nth-child(even) {
       border-left: 1px solid #E0E0E0;
       background: rgba(233, 233, 231, .8);
 
@@ -49,7 +49,7 @@
       }
     }
 
-    td:first-child {
+    td:nth-child(odd) {
 
       span {
         font-weight: bold;

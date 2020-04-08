@@ -1,0 +1,51 @@
+.punching-steel-pipes-page-second-screen {
+  margin-bottom: 10px;
+}
+
+.punching-steel-pipes-page-second-screen__block {
+  display: flex;
+  margin-bottom: 50px;
+
+  span {
+    color: #B45754;
+    font-weight: bold;
+  }
+}
+
+.punching-steel-pipes-page-second-screen__block-icon {
+  width: 143px;
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.punching-steel-pipes-page-second-screen__text {
+  max-width: 720px;
+
+  a {
+    color: #B45754;
+  }
+}
+
+.punching-steel-pipes-page-second-screen__block-icon-five {
+  position: relative;
+  top: -30px;
+}
+
+@media (max-width: 575.98px) {
+  .punching-steel-pipes-page-second-screen__block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .punching-steel-pipes-page-second-screen__block-icon {
+    width: 60px;
+    margin-right: 0;
+    margin-bottom: 10px;
+
+    i {
+      width: 60px;
+      height: 50px;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+.prices-hhd-second-screen {
+  margin-bottom: 70px;
+}
+
+.prices-hhd-second-screen__title {
+  margin-bottom: 34px;
+}
+
+.prices-hhd-second-screen__announcement {
+  background: #FFFFFF;
+  border: 1px solid #CBCBCB;
+  position: relative;
+  padding: 16px 34px 36px 37px;
+  display: flex;
+  flex-direction: column;
+  max-width: 367px;
+  width: 100%;
+  margin-left: auto;
+
+  &:before {
+    content: '';
+    width: 12px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background: #B45754;
+  }
+}
+
+.prices-hhd-second-screen__announcement-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: $font-family-second;
+  color: #333333;
+  margin-bottom: 22px;
+  display: block;
+}
+
+.prices-hhd-second-screen__announcement-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.prices-hhd-second-screen__announcement-item {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #555555;
+  }
+}
+
+.prices-hhd-second-screen__announcement-icon {
+  width: 20px;
+  min-width: 20px;
+  margin-right: 19px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 991.98px) {
+  .prices-hhd-second-screen__announcement {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .prices-hhd-second-screen__announcement-title {
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .prices-hhd-second-screen__announcement-item a {
+    font-size: 14px;
+    line-height: normal;
+  }
+}

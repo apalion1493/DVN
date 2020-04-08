@@ -1,0 +1,76 @@
+.pipe-welding-page-fourth-screen {
+  margin-bottom: 64px;
+}
+
+.pipe-welding-page-fourth-screen__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 28px;
+}
+
+.pipe-welding-page-fourth-screen__item {
+  width: 50%;
+  display: flex;
+  margin-bottom: 30px;
+
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    min-width: 48px;
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+    background: linear-gradient(180deg, #F0E0DF 0%, #E9E9E7 100%);
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: $font-family-second;
+    text-align: center;
+    color: #333333;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  &:nth-child(odd) {
+    padding-right: 15px;
+  }
+
+  &:nth-child(even) {
+    padding-left: 15px;
+  }
+}
+
+.pipe-welding-page-fourth-screen__block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+  padding-left: 24px;
+
+  i {
+    background: #B65855;
+    min-width: 9px;
+    width: 9px;
+    height: 9px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .pipe-welding-page-fourth-screen__item {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+  }
+}

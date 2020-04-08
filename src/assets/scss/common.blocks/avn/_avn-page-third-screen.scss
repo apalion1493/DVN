@@ -1,0 +1,63 @@
+.avn-page-third-screen {
+  margin-bottom: 36px;
+
+  a {
+    color: #B65855;
+  }
+}
+
+.avn-page-third-screen__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 331px;
+  margin-left: auto;
+}
+
+.avn-page-third-screen__container-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 32px;
+}
+
+.avn-page-third-screen__container-block-img {
+  min-width: 62px;
+  width: 62px;
+  display: flex;
+  justify-content: center;
+  margin-right: 35px;
+}
+
+.avn-page-third-screen__container-block {
+  display: flex;
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.avn-page-third-screen__container-icon-1 {
+  background: url("../img/avn/avn-icon-1.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 62px;
+  height: 54px;
+  display: block;
+  position: relative;
+  top: -15px;
+}
+
+.avn-page-third-screen__container-icon-2 {
+  background: url("../img/avn/avn-icon-2.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 62px;
+  height: 34px;
+  display: block;
+}
+
+@media (max-width: 767.98px) {
+  .avn-page-third-screen__container {
+    max-width: 100%;
+  }
+}

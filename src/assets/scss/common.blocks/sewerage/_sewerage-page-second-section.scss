@@ -1,0 +1,32 @@
+.sewerage-page-second-section {
+  padding-top: 24px;
+  padding-bottom: 86px;
+
+  a {
+    color: #B45754;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  ul {
+    margin-bottom: 34px;
+    padding-left: 35px;
+  }
+}
+
+.sewerage-page-second-section__block {
+  background: #FFFFFF;
+  border: 1px solid #B45754;
+  padding: 35px 28px 48px;
+  margin-top: 30px;
+
+  a {
+    color: #333333;
+    font-weight: bold;
+  }
+
+  span {
+    font-weight: bold;
+  }
+}

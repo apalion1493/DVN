@@ -1,0 +1,62 @@
+.technology-second-screen {
+  padding: 24px 5px 45px;
+
+  h1 {
+    margin-bottom: 44px;
+  }
+}
+
+.technology-second-screen__list {
+  display: flex;
+  flex-direction: column;
+
+  & > * {
+    margin-bottom: 35px;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .media {
+    display: flex;
+    align-items: center;
+  }
+
+  .media-body {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #555555;
+  }
+}
+
+.technology-second-screen__icon {
+  width: 75px;
+  height: 75px;
+  min-width: 75px;
+  border-radius: 50%;
+  margin-right: 27px;
+}
+
+@media (max-width: 767.98px) {
+  .technology-second-screen__list {
+    margin-top: 20px;
+  }
+
+  .technology-second-screen {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .technology-second-screen__icon {
+    min-width: 40px;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+}

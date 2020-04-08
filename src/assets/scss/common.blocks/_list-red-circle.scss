@@ -1,0 +1,31 @@
+.list-red-circle {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-bottom: 0;
+
+  li {
+    margin-bottom: 20px;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 7px;
+      left: -30px;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: #b65855;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    a {
+      color: #B65855;
+    }
+  }
+}
+
+

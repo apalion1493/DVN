@@ -1,0 +1,50 @@
+.technology-fourth-screen {
+  margin-bottom: 58px;
+
+  h3.h3 {
+    span {
+      color: #B45754;
+    }
+  }
+}
+
+.technology-fourth-screen__container-block {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: #B45754;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .technology-fourth-screen__container-block p {
+    font-size: 14px;
+  }
+
+  .technology-fourth-screen {
+    padding-left: 0;
+    padding-right: 0;
+
+    .list-red-circle {
+      padding-left: 30px;
+    }
+  }
+}

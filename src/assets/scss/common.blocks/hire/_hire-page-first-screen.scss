@@ -1,0 +1,30 @@
+.hire-page-first-screen {
+  padding-top: 24px;
+
+  h1.h1 {
+    margin-bottom: 50px;
+  }
+
+  .list-red-circle {
+    padding-left: 40px;
+  }
+}
+
+.hire-page-first-screen__wrapper {
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  padding: 25px 42px 40px 27px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 1200px) {
+  .hire-page-first-screen {
+    margin-bottom: 400px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hire-page-first-screen__wrapper {
+    padding: 10px;
+  }
+}
