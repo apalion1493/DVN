@@ -1,0 +1,65 @@
+.shitovaia-prohodka-first-screen {
+
+}
+
+.shitovaia-prohodka-first-screen__list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+
+  .red-num-block {
+    margin-right: 32px;
+  }
+}
+
+.shitovaia-prohodka-first-screen__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.shitovaia-prohodka-first-screen__step {
+  display: flex;
+  margin-bottom: 20px;
+
+  span {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: $font-family-second;
+    color: #B65855;
+    margin-right: 24px;
+    white-space: nowrap;
+    min-width: 80px;
+    width: 80px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .shitovaia-prohodka-first-screen__wrapper {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .shitovaia-prohodka-first-screen__wrapper {
+    img {
+      width: 100%;
+      max-width: 450px;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .shitovaia-prohodka-first-screen__step {
+    flex-direction: column;
+
+    span {
+      font-size: 16px;
+      width: auto;
+      margin-right: 0;
+    }
+  }
+}

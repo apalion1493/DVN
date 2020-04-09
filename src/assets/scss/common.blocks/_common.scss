@@ -591,6 +591,23 @@ body {
     }
   }
 }
+
+.red-num-block {
+  background: #B45754;
+  min-width: 28px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 40px;
+  font-family: $font-family-second;
+  color: #FFFFFF;
+}
 ////////////////////////////////////////////////////////////////////
 
 #slider {

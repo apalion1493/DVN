@@ -26,3 +26,5 @@ https://apalion1493.github.io/DVN/build/punching-steel-pipes.html
 https://apalion1493.github.io/DVN/build/sewerage.html
 
 https://apalion1493.github.io/DVN/build/technology.html
+
+https://apalion1493.github.io/DVN/build/shitovaia-prohodka.html
