@@ -15,7 +15,7 @@
 
     .bar1 {
       transform: rotate(-45deg) translate(-4px, 5px);
-      background: #B45754;
+      background: $active-color;
     }
 
     .bar2 {
@@ -24,7 +24,7 @@
 
     .bar3 {
       transform: rotate(45deg) translate(-4px, -6px);
-      background: #B45754;
+      background: $active-color;
     }
   }
 }

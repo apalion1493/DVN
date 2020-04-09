@@ -8,10 +8,6 @@
 
 .production-page_fourth-screen__subtitle {
   max-width: 750px;
-
-  a {
-    color: #B45754;
-  }
 }
 
 .production-page_fourth-screen__table-title {
@@ -26,13 +22,14 @@
   display: block;
   font-size: 16px;
   line-height: 20px;
-  color: #B45754;
+  color: $active-color;
 }
 
 @media (max-width: 767.98px) {
   .production-page_fourth-screen__comparison-GNB {
     margin-left: -15px;
     margin-right: -15px;
+    margin-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 40px;
@@ -42,5 +39,9 @@
       padding-bottom: 0;
       margin-bottom: 0;
     }
+  }
+
+  .production-page_fourth-screen {
+    margin-bottom: 50px;
   }
 }

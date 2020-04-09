@@ -7,7 +7,7 @@
   margin-bottom: 50px;
 
   span {
-    color: #B45754;
+    color: $active-color;
     font-weight: bold;
   }
 }
@@ -23,7 +23,7 @@
   max-width: 720px;
 
   a {
-    color: #B45754;
+    color: $active-color;
   }
 }
 
@@ -47,5 +47,9 @@
       width: 60px;
       height: 50px;
     }
+  }
+
+  .punching-steel-pipes-page-second-screen__block-icon-five {
+    top: 0;
   }
 }

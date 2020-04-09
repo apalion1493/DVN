@@ -32,12 +32,26 @@
 
 @media (max-width: 767.98px) {
   .technology-fifth-screen {
+    margin-bottom: 20px;
+
     .media__img-circle {
       span {
         min-width: 30px;
         width: 30px;
         height: 30px;
         margin-right: 10px;
+      }
+    }
+  }
+
+  .technology-fifth-screen h3 {
+    margin-bottom: 24px;
+  }
+
+  .technology-fifth-screen {
+    .media {
+      p {
+        margin-bottom: 0;
       }
     }
   }

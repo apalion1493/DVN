@@ -1,3 +1,5 @@
+$active-color: #b45754;
+
 html, body {
   height: 100%;
   font-family: $font-family-first;
@@ -515,8 +517,79 @@ body {
 
 .red-border-container {
   background: #FFFFFF;
-  border: 1px solid #B45754;
+  border: 1px solid $active-color;
   padding: 35px 46px 35px 28px;
+}
+
+.color-text {
+  color: $active-color;
+}
+
+.marker-icon {
+  background: url("../img/marker-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 15px;
+  height: 20px;
+  display: block;
+}
+
+.metro-icon {
+  background: url("../img/metro-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 22px;
+  height: 15px;
+  display: block;
+}
+
+.tel-icon {
+  background: url("../img/tel-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 15px;
+  height: 15px;
+  display: block;
+}
+
+.mail-icon-red {
+  background: url("../img/mail-icon-red.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 18px;
+  height: 14px;
+  display: block;
+}
+
+.modal-content-dvn {
+  .modal-header {
+    min-height: 51px;
+    background: linear-gradient(270deg, #3F80CD 0%, #3843A9 100%);
+  }
+
+  .modal-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  .close {
+    opacity: 1;
+
+    span {
+      font-size: 0;
+      background: url("../img/close-icon.svg") no-repeat center;
+      background-size: 100% auto;
+      width: 24px;
+      height: 24px;
+      display: block;
+    }
+  }
+
+  .modal-body {
+    padding: 20px 24px 30px;
+
+    img {
+
+    }
+  }
 }
 ////////////////////////////////////////////////////////////////////
 
@@ -715,6 +788,10 @@ body {
 
   .circle-brown-wrapper {
     display: none;
+  }
+
+  .red-border-container {
+    padding: 15px;
   }
 }
 

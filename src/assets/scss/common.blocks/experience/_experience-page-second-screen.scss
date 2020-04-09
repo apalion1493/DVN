@@ -9,3 +9,13 @@
 .experience-page-second-screen__subTitle {
   margin-bottom: 26px;
 }
+
+@media (max-width: 767.98px) {
+  .experience-page-second-screen {
+    padding-bottom: 40px;
+  }
+
+  .experience-page-second-screen__title {
+    margin-bottom: 24px;
+  }
+}

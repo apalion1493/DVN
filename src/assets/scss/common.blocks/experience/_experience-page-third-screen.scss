@@ -9,3 +9,13 @@
 .experience-page-third-screen__subtitle {
   margin-bottom: 37px;
 }
+
+@media (max-width: 767.98px) {
+  .experience-page-third-screen__title {
+    margin-bottom: 20px;
+  }
+
+  .experience-page-third-screen {
+    margin-bottom: 10px;
+  }
+}

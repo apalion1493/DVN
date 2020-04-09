@@ -1,11 +1,5 @@
 .technology-fourth-screen {
   margin-bottom: 58px;
-
-  h3.h3 {
-    span {
-      color: #B45754;
-    }
-  }
 }
 
 .technology-fourth-screen__container-block {
@@ -26,7 +20,7 @@
     line-height: 40px;
     margin-right: 10px;
     border-radius: 50%;
-    background: #B45754;
+    background: $active-color;
   }
 
   p {
@@ -42,6 +36,7 @@
   .technology-fourth-screen {
     padding-left: 0;
     padding-right: 0;
+    margin-bottom: 40px;
 
     .list-red-circle {
       padding-left: 30px;

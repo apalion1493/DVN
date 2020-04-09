@@ -101,5 +101,21 @@
 
   .prices-hhd-fourth-screen__item-img {
     margin-right: 15px;
+    min-width: 40px;
+    width: 40px;
+  }
+
+  .prices-hhd-fourth-screen__title {
+    margin-bottom: 24px;
+  }
+
+  .prices-hhd-fourth-screen {
+    .red-border-container {
+      padding: 15px;
+    }
+  }
+
+  .prices-hhd-fourth-screen__item {
+    margin-bottom: 30px;
   }
 }

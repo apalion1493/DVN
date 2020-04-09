@@ -47,7 +47,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #B45754;
+  background: $active-color;
   margin-right: 25px;
 
   font-weight: bold;
@@ -217,7 +217,7 @@
     align-items: flex-start;
     margin-bottom: 24px;
     min-height: 60px;
-    
+
     &:last-child {
       .advantages-GNB__stages-number:before {
         display: none;
@@ -254,5 +254,5 @@
   .advantages-GNB__section-subtitle {
     margin-bottom: 34px;
   }
-  
+
 }

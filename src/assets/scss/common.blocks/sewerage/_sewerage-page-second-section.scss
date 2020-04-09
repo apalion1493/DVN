@@ -3,7 +3,7 @@
   padding-bottom: 86px;
 
   a {
-    color: #B45754;
+    color: $active-color;
     &:hover {
       text-decoration: none;
     }
@@ -16,9 +16,6 @@
 }
 
 .sewerage-page-second-section__block {
-  background: #FFFFFF;
-  border: 1px solid #B45754;
-  padding: 35px 28px 48px;
   margin-top: 30px;
 
   a {

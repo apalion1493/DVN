@@ -10,7 +10,7 @@
   }
 
   a {
-    color: #B45754;
+    color: $active-color;
   }
 
   tr {
@@ -41,7 +41,7 @@
     td:last-child {
       text-align: center;
       p {
-        color: #B45754;
+        color: $active-color;
       }
     }
 

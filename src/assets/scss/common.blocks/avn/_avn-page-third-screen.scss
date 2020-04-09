@@ -60,5 +60,15 @@
 @media (max-width: 767.98px) {
   .avn-page-third-screen__container {
     max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .avn-page-third-screen__container-block-img {
+    margin-right: 15px;
+  }
+
+  .avn-page-third-screen__container-icon-1,
+  .avn-page-third-screen__container-icon-2 {
+    width: 40px;
   }
 }

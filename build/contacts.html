@@ -149,19 +149,57 @@
             </div>
         </header>
         <section class="section first-screen technology-first-screen" style="background-image: url(assets/img/contacts/contacts-page-first-screen__bg.jpg)"></section>
-        <section class="section contacts-page-first-screen mt-4">
+        <section class="section contacts-page-first-screen mt-4 mb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <h1 class="h1 mb-5">Контакты</h1>
-
-                        <div class="contacts-page-first-screen__block">
-                            <span>Адрес:</span>
-                            <address>125319, г. Москва, ул.Часовая, д.5б</address>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="contacts-page-first-screen__list">
+                            <div class="contacts-page-first-screen__item">
+                                <div class="contacts-page-first-screen__item-icon">
+                                    <i class="marker-icon"></i>
+                                </div>
+                                <div class="contacts-page-first-screen__item-body">
+                                    <span class="common-text">Адрес:</span>
+                                    <address class="common-text">125319, г. Москва, ул.Часовая, д.5б</address>
+                                    <button class="btn btn-outline-secondary contacts-page-first-screen__item-btn" data-toggle="modal" data-target="#exampleModalCenter">Схема проезда</button>
+                                </div>
+                            </div>
+                            <div class="contacts-page-first-screen__item">
+                                <div class="contacts-page-first-screen__item-icon">
+                                    <i class="metro-icon"></i>
+                                </div>
+                                <div class="contacts-page-first-screen__item-body">
+                                    <span class="common-text">Метро:</span>
+                                    <p class="common-text mb-0">Ближайшая станция метро - Аэропорт</p>
+                                </div>
+                            </div>
+                            <div class="contacts-page-first-screen__item">
+                                <div class="contacts-page-first-screen__item-icon">
+                                    <i class="tel-icon"></i>
+                                </div>
+                                <div class="contacts-page-first-screen__item-body">
+                                    <span class="common-text">Тел:</span>
+                                    <a class="contacts-page-first-screen__item-tel" href="tel:+74952261850">+7 (495) 226-18-50</a>
+                                </div>
+                            </div>
+                            <div class="contacts-page-first-screen__item">
+                                <div class="contacts-page-first-screen__item-icon">
+                                    <i class="mail-icon-red"></i>
+                                </div>
+                                <div class="contacts-page-first-screen__item-body">
+                                    <span class="common-text">E-mail:</span>
+                                    <a href="mailto:dvn-stroy@rambler.ru">dvn-stroy@rambler.ru</a>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="col-lg-7">
                         <div class="contacts-page-first-screen__block">
-                            <span>Адрес:</span>
-                            <address>125319, г. Москва, ул.Часовая, д.5б</address>
+                            <span class="mb-4 d-block">Мы на карте:</span>
+                            <iframe class="w-100" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad1ffe8cb124b1d7d70ddc13c876edf44d200c518e419c553123b5a6d38a54b30&amp;source=constructor" width="698" height="411" frameborder="0"></iframe>
                         </div>
                     </div>
                 </div>
@@ -245,6 +283,22 @@
                 </div>
             </div>
         </footer>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content modal-content-dvn">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Схема проезда</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="w-100" src="assets/img/contacts/driving-directions.svg" alt="">
+            </div>
+        </div>
     </div>
 </div>
 

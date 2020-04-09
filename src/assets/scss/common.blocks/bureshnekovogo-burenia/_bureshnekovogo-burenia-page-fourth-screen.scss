@@ -1,3 +1,11 @@
 .bureshnekovogo-burenia-page-fourth-screen {
   margin-bottom: 40px;
 }
+
+@media (max-width: 767.98px) {
+  .bureshnekovogo-burenia-page-fourth-screen {
+    .list-red-circle {
+      padding-left: 35px;
+    }
+  }
+}

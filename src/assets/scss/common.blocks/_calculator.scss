@@ -426,7 +426,7 @@
   .wizard>.steps .current a,
   .wizard>.steps .current a:active,
   .wizard>.steps .current a:hover {
-    background: #B45754;
+    background: $active-color;
   }
 
   .wizard>.steps>ul>li {

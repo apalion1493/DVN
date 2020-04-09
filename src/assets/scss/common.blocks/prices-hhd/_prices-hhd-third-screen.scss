@@ -5,3 +5,17 @@
 .prices-hhd-third-screen {
   margin-bottom: 70px;
 }
+
+@media (max-width: 767.98px) {
+  .prices-hhd-third-screen {
+    margin-bottom: 40px;
+
+    .list-red-circle {
+      padding-left: 40px;
+    }
+  }
+
+  .prices-hhd-third-screen__title {
+    margin-bottom: 26px;
+  }
+}
