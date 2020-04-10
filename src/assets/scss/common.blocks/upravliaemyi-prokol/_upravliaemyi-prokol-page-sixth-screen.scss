@@ -1,0 +1,20 @@
+.upravliaemyi-prokol-page-sixth-screen {
+  margin-bottom: 60px;
+}
+
+.upravliaemyi-prokol-page-sixth-screen__block {
+  max-width: 305px;
+  margin-left: auto;
+  margin-right: auto;
+
+  p {
+    color: #555555;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .upravliaemyi-prokol-page-sixth-screen__block {
+    max-width: 100%;
+    margin-top: 24px;
+  }
+}

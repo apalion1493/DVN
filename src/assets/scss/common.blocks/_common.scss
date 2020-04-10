@@ -608,6 +608,56 @@ body {
   font-family: $font-family-second;
   color: #FFFFFF;
 }
+
+.range-icon {
+  background: url("../img/bureshnekovogo-burenia/bureshnekovogo-burenia-icon-1.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 63px;
+  height: 61px;
+  display: block;
+}
+
+.length-icon {
+  background: url("../img/bureshnekovogo-burenia/bureshnekovogo-burenia-icon-2.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 63px;
+  height: 45px;
+  display: block;
+}
+
+.pit-size {
+  background: url("../img/upravliaemyi-prokol/upravliaemyi-prokol-icon-2.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 64px;
+  height: 29px;
+  display: block;
+}
+
+.pit-depth {
+  background: url("../img/upravliaemyi-prokol/upravliaemyi-prokol-icon-3.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 64px;
+  height: 29px;
+  display: block;
+}
+
+.warning-icon {
+  background: url("../img/warning-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.diameter-icon {
+  background: url("../img/diameter-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 63px;
+  height: 61px;
+  display: block;
+}
+
 ////////////////////////////////////////////////////////////////////
 
 #slider {

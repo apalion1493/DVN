@@ -1,0 +1,33 @@
+.upravliaemyi-prokol-page-fifth-screen {
+
+}
+
+.upravliaemyi-prokol-page-fifth-screen__list {
+  padding-left: 25px;
+
+  .red-num-block {
+    margin-right: 28px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  li {
+    margin-bottom: 33px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .upravliaemyi-prokol-page-fifth-screen__list {
+    padding-left: 0;
+
+    .red-num-block {
+      margin-right: 15px;
+    }
+  }
+}

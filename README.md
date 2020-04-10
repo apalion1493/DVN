@@ -28,3 +28,5 @@ https://apalion1493.github.io/DVN/build/sewerage.html
 https://apalion1493.github.io/DVN/build/technology.html
 
 https://apalion1493.github.io/DVN/build/shitovaia-prohodka.html
+
+https://apalion1493.github.io/DVN/build/upravliaemyi-prokol.html

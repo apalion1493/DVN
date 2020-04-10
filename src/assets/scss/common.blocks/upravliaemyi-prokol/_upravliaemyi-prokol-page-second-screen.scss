@@ -1,0 +1,49 @@
+.upravliaemyi-prokol-page-second-screen {
+
+}
+
+.upravliaemyi-prokol-page-second-screen__block {
+  background: rgba(233, 233, 231, .7);
+  border: 1px solid #E0E0E0;
+  padding: 37px 5px 56px 22px;
+
+  .list-red-circle {
+    padding-left: 35px;
+  }
+
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 195px;
+    width: 100%;
+  }
+}
+
+.upravliaemyi-prokol-page-second-screen__block-list {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1199.98px) {
+  .upravliaemyi-prokol-page-second-screen__block {
+    img {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .upravliaemyi-prokol-page-second-screen__block {
+    padding: 20px;
+    margin-top: 20px;
+    img {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 545px) {
+  .upravliaemyi-prokol-page-second-screen__block-list {
+    flex-direction: column;
+  }
+}
