@@ -30,3 +30,11 @@ https://apalion1493.github.io/DVN/build/technology.html
 https://apalion1493.github.io/DVN/build/shitovaia-prohodka.html
 
 https://apalion1493.github.io/DVN/build/upravliaemyi-prokol.html
+
+https://apalion1493.github.io/DVN/build/text-page.html
+
+https://apalion1493.github.io/DVN/build/list-of-news.html
+
+https://apalion1493.github.io/DVN/build/Services.html
+
+https://apalion1493.github.io/DVN/build/zamena-trub.html

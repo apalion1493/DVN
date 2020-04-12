@@ -2,7 +2,7 @@ $font-family-first: 'Roboto', sans-serif;
 $font-family-second: 'Montserrat', sans-serif;
 $font-family-third: 'Roboto Condensed', sans-serif;
 
-h1.h1 {
+h1, .h1 {
   font-family: $font-family-second;
   font-weight: 900;
   font-size: 40px;
@@ -11,7 +11,7 @@ h1.h1 {
   text-transform: uppercase;
 }
 
-h2.h2 {
+h2, .h2 {
   font-family: $font-family-second;
   font-style: normal;
   font-weight: bold;
@@ -19,7 +19,7 @@ h2.h2 {
   line-height: 40px;
 }
 
-h3.h3 {
+h3, .h3 {
   font-family: $font-family-second;
   font-weight: bold;
   font-size: 24px;
@@ -27,7 +27,7 @@ h3.h3 {
   color: #333333;
 }
 
-h4.h4 {
+h4, .h4 {
   font-family: $font-family-second;
   font-weight: bold;
   font-size: 18px;
@@ -82,17 +82,17 @@ h4.h4 {
 }
 
 @media (max-width: 767.98px) {
-  h1.h1 {
+  h1, .h1 {
     font-size: 20px;
     line-height: 24px;
   }
 
-  h2.h2 {
+  h2, .h2 {
     font-size: 18px;
     line-height: 22px;
   }
 
-  h3.h3 {
+  h3, .h3 {
     font-size: 18px;
     line-height: 22px;
   }

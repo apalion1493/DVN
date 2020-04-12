@@ -45,6 +45,16 @@ a.media-main__text {
   color: #B65855;
 }
 
+.media-main__img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-width: 179px;
+  height: 170px;
+  display: block;
+}
+
 @media (max-width: 767.98px) {
   .media-main {
     flex-direction: column;
