@@ -1,0 +1,74 @@
+.grundoram-page-third-screen__container-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: $font-family-second;
+  color: #333333;
+  margin-bottom: 12px;
+  display: block;
+  max-width: 192px;
+}
+
+.grundoram-page-third-screen__container-wrapper {
+  height: 250px;
+}
+
+.grundoram-page-third-screen__block {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.grundoram-page-third-screen__block-img {
+  min-width: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.grundoram-page-third-screen__block-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.grundoram-page-third-screen__block-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+  display: block;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 1370px) {
+  .grundoram-page-third-screen__container-wrapper {
+    height: 190px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .grundoram-page-third-screen__container-wrapper {
+    height: auto;
+  }
+
+  .grundoram-page-third-screen__container {
+    margin-top: 26px;
+    margin-bottom: 40px;
+  }
+
+  .grundoram-page-third-screen__container-title {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .grundoram-page-third-screen__block {
+    flex-direction: column;
+  }
+
+  .grundoram-page-third-screen__block-img {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+  }
+}

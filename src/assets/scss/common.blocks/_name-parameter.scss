@@ -1,0 +1,21 @@
+.name-parameter {
+  display: flex;
+  margin-bottom: 11px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.name-parameter__line {
+  flex: 1;
+  border-bottom: 1px solid #D7D7D7;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  top: -5px;
+}
+
+.name-parameter__title {
+  font-weight: bold;
+}

@@ -1,0 +1,27 @@
+.beztronsheinaia-procladka-trub-page-third-screen__block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+
+  span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+    font-family: $font-family-second;
+  }
+}
+
+.beztronsheinaia-procladka-trub-page-third-screen__block-img {
+  min-width: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  margin-right: 27px;
+}
+
+@media (max-width: 767.98px) {
+  .beztronsheinaia-procladka-trub-page-third-screen__block span {
+    font-size: 14px;
+  }
+}

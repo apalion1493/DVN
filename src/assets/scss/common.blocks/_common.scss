@@ -662,6 +662,78 @@ body {
   background: #FBF685;
 }
 
+.gauge-icon {
+  background: url("../img/beztronsheinaia-procladka-trub/gauge-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 56px;
+  height: 56px;
+  display: block;
+}
+
+.cord-icon {
+  background: url("../img/beztronsheinaia-procladka-trub/cord-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 51px;
+  height: 51px;
+  display: block;
+}
+
+.valve-icon {
+  background: url("../img/beztronsheinaia-procladka-trub/valve-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 59px;
+  height: 59px;
+  display: block;
+}
+
+.sewage-icon {
+  background: url("../img/beztronsheinaia-procladka-trub/sewage-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 57px;
+  height: 57px;
+  display: block;
+}
+
+.clock-icon {
+  background: url("../img/grundoram/clock-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 42px;
+  height: 42px;
+  display: block;
+}
+
+.target-icon {
+  background: url("../img/grundoram/target-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 42px;
+  height: 42px;
+  display: block;
+}
+
+.without-electricity-icon {
+  background: url("../img/grundoram/without-electricity-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 36px;
+  height: 46px;
+  display: block;
+}
+
+.cones-icon {
+  background: url("../img/grundoram/cones-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 42px;
+  height: 42px;
+  display: block;
+}
+
+.without-wall-icon {
+  background: url("../img/grundoram/without-wall-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 43px;
+  height: 43px;
+  display: block;
+}
+
 ////////////////////////////////////////////////////////////////////
 
 #slider {

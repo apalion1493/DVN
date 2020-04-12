@@ -1,0 +1,31 @@
+.beztronsheinaia-procladka-trub-page-second-screen {
+
+}
+
+.beztronsheinaia-procladka-trub-page-second-screen__list-btn {
+  max-width: 317px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.beztronsheinaia-procladka-trub-page-second-screen__list {
+  .main-card {
+    min-height: 346px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .beztronsheinaia-procladka-trub-page-second-screen__list {
+    .main-card {
+      min-height: 420px;
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .beztronsheinaia-procladka-trub-page-second-screen__list {
+    .main-card {
+      margin-bottom: 26px;
+    }
+  }
+}

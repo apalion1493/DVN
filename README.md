@@ -38,3 +38,7 @@ https://apalion1493.github.io/DVN/build/list-of-news.html
 https://apalion1493.github.io/DVN/build/Services.html
 
 https://apalion1493.github.io/DVN/build/zamena-trub.html
+
+https://apalion1493.github.io/DVN/build/grundoram.html
+
+https://apalion1493.github.io/DVN/build/beztronsheinaia-procladka-trub.html

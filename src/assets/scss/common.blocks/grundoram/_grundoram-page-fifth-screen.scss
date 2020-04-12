@@ -1,0 +1,26 @@
+.grundoram-page-fifth-screen {
+  margin-bottom: 100px;
+}
+
+.grundoram-page-fifth-screen__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.grundoram-page-fifth-screen__img {
+  width: 100%;
+  max-width: 503px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  top: -50px;
+}
+
+@media (max-width: 767.98px) {
+  .grundoram-page-fifth-screen__img {
+    top: 0;
+    margin-bottom: 26px;
+    margin-top: 15px;
+  }
+}
