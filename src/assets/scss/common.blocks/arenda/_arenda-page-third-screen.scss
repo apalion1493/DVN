@@ -1,0 +1,17 @@
+.arenda-page-third-screen {
+  .red-num-block {
+    width: 44px;
+    min-width: 44px;
+    height: 44px;
+    font-size: 18px;
+  }
+}
+
+.arenda-page-third-screen__block {
+  display: flex;
+
+  p {
+    position: relative;
+    top: 9px;
+  }
+}

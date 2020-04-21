@@ -1,0 +1,27 @@
+.arenda-page-fourth-screen__container {
+  background: #B65855 url("../img/arenda/arenda-img-1.png") no-repeat bottom center;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+  padding: 21px 27px;
+  min-height: 350px;
+
+  span {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: $font-family-first;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  p, a {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+  }
+
+}
