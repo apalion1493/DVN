@@ -85,3 +85,17 @@
     width: 80%;
   }
 }
+
+.table-v3__image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 80%;
+  height: 100%;
+  display: block;
+}
+
+.table-v3__image-big {
+  width: 100%;
+  background-size: cover;
+}

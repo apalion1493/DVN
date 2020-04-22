@@ -522,7 +522,7 @@ body {
 }
 
 .color-text {
-  color: $active-color;
+  color: $active-color !important;
 }
 
 .marker-icon {

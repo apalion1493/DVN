@@ -15,3 +15,16 @@
     top: 9px;
   }
 }
+
+@media (max-width: 767.98px) {
+  .arenda-page-third-screen .red-num-block {
+    min-width: 28px;
+    width: 28px;
+    height: 28px;
+    font-size: 16px;
+  }
+
+  .arenda-page-third-screen__block p {
+    top: 0;
+  }
+}

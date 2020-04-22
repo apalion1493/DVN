@@ -42,3 +42,9 @@ https://apalion1493.github.io/DVN/build/zamena-trub.html
 https://apalion1493.github.io/DVN/build/grundoram.html
 
 https://apalion1493.github.io/DVN/build/beztronsheinaia-procladka-trub.html
+
+https://apalion1493.github.io/DVN/build/arenda.html
+
+https://apalion1493.github.io/DVN/build/arenda-domkratov.html
+
+https://apalion1493.github.io/DVN/build/crane-rental.html
