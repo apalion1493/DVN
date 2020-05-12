@@ -5,6 +5,8 @@
   padding-top: 71px;
   width: 100%;
   max-width: 1500px;
+  min-height: 100vh;
+  justify-content: flex-end;
 
   &:before {
     content: '';

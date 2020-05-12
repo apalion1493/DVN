@@ -37,7 +37,8 @@
 }
 
 .main-navigation__rent {
-  padding-bottom: 137px;
+  //padding-bottom: 137px;
+  padding-bottom: 0;
 }
 
 .main-navigation__list {
@@ -189,7 +190,7 @@
     min-height: 100vh;
     justify-content: space-between;
   }
-  
+
   .main-navigation__services {
     margin-bottom: 42px;
   }

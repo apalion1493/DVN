@@ -5,6 +5,14 @@ html, body {
   font-family: $font-family-first;
 }
 
+a {
+  color: $secondary;
+
+  &:hover {
+    color: $secondary;
+  }
+}
+
 body {
   & > .wrapper {
     display: flex;
