@@ -10,7 +10,15 @@
 
 .beztronsheinaia-procladka-trub-page-second-screen__list {
   .main-card {
-    min-height: 346px;
+    min-height: 100%;
+  }
+
+  .first-variation-title {
+    margin-bottom: 30px;
+  }
+
+  .main-card__body {
+    padding-bottom: 32px;
   }
 }
 
@@ -22,10 +30,22 @@
   }
 }
 
-@media (max-width: 1199.98px) {
+//@media (max-width: 1199.98px) {
+//  .beztronsheinaia-procladka-trub-page-second-screen__list {
+//    .main-card {
+//      margin-bottom: 26px;
+//    }
+//  }
+//}
+
+@media (max-width: 575.98px) {
   .beztronsheinaia-procladka-trub-page-second-screen__list {
     .main-card {
-      margin-bottom: 26px;
+      min-height: auto;
+    }
+
+    .first-variation-title {
+      margin-bottom: 30px;
     }
   }
 }

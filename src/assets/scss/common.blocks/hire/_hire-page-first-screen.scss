@@ -1,5 +1,6 @@
 .hire-page-first-screen {
   padding-top: 24px;
+  margin-bottom: 40px;
 
   h1.h1 {
     margin-bottom: 50px;
@@ -15,12 +16,6 @@
   border: 1px solid #DDDDDD;
   padding: 25px 42px 40px 27px;
   margin-bottom: 50px;
-}
-
-@media (min-width: 1200px) {
-  .hire-page-first-screen {
-    margin-bottom: 400px;
-  }
 }
 
 @media (max-width: 767.98px) {
