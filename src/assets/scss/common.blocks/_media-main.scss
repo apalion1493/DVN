@@ -16,6 +16,8 @@
 
 .media-main__body {
   padding-top: 14px;
+  display: flex;
+  flex-direction: column;
 }
 
 .media-main__title {
