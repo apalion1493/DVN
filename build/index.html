@@ -12,6 +12,50 @@
 </head>
 <body>
 
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content modal-content-dvn modal-content-dvn_request">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Быстрая заявка</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p class="modal-content-dvn__subTitle">Для определения стоимости работ и предоставления <br><span>скидки 5%</span> заполните, пожалуйста форму-заявку:</p>
+                <form action="">
+                    <div class="form-group">
+                        <label for="inputName">Имя и фамилия</label>
+                        <input type="text" class="form-control" id="inputName">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail">Электронная почта</label>
+                        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPhone">Телефон</label>
+                        <input type="text" class="form-control" id="inputPhone">
+                    </div>
+                    <div class="form-group">
+                        <div class="modal-content-dvn__Description-text">
+                            <label for="shortDescriptionTextarea">Краткое описание работы методом ГНБ</label>
+                            <small id="shortDescriptionTextareaText" class="form-text text-muted">Например: количество проколов, диаметр и длина труб, материал труб (сталь, полиэтилен, чугун), тип грунтов (песок, супесь, суглинок глина или др.), место работы (Москва, МО и другое)</small>
+                        </div>
+                        <textarea class="form-control" id="shortDescriptionTextarea" rows="10"></textarea>
+                    </div>
+                    <button type="submit" class="btn main-button brown-btn modal-content-dvn__btn">Отправить заявку</button>
+                </form>
+            </div>
+            <div class="modal-footer flex-column">
+                <p>Если у Вас есть чертежи (план и профиль прокола), пришлите их, пожалуйста, на электронную почту <a
+                        href="mailto:dvn-stroy@rambler.ru">dvn-stroy@rambler.ru</a></p>
+                <p>Любые консультации можно так же получить по телефону <a href="tel:+7495226-18-50">+7 (495) 226-18-50</a></p>
+                <p>Приглашаем Вас посмотреть примеры выполненных работ компании ДВН-Строй.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="sidebar">
     <div id="aside1" class="sidebar left-container">
         <div class="theiaStickySidebar main-navigation">
@@ -133,7 +177,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <button class="btn main-button brown-btn header__btn">Быстрая заявка</button>
+                                <button class="btn main-button brown-btn header__btn" data-toggle="modal" data-target="#exampleModalCenter">Быстрая заявка</button>
                                 <div class="header__infoBlock">
                                     <span class="header__infoBlock-span">Время работы:</span>
                                     <p class="header__infoBlock-text">9.00 – 19.00&emsp;Без выходных</p>
